@@ -74,11 +74,7 @@
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
-        <userVisible>
-          <for>
-            <role>Role.ПолныеПрава</role>
-          </for>
-        </userVisible>
+        <userVisible/>
         <dataPath xsi:type="form:DataPath">
           <segments>Список.Ссылка</segments>
         </dataPath>

@@ -179,7 +179,6 @@
   <commonPictures>CommonPicture.КругПустой</commonPictures>
   <sessionParameters>SessionParameter.ВидИнтерфейсаНочь</sessionParameters>
   <sessionParameters>SessionParameter.ИдентификаторУстройства</sessionParameters>
-  <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.http</commonModules>
   <commonModules>CommonModule.http_ВызовСервера</commonModules>
   <commonModules>CommonModule.http_Клиент</commonModules>

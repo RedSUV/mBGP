@@ -109,9 +109,6 @@
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
-        <for>
-          <role>Role.ПолныеПрава</role>
-        </for>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Ref</segments>
