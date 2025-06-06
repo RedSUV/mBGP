@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0222b0dd-31bc-4efc-a4de-28e1c009d70f">
+  <producedTypes>
+    <managerType typeId="fe3bb56d-158a-42b9-8879-b79e4339fe6a" valueTypeId="3b96bb75-542d-4c7d-a676-21ee6c4591c2"/>
+    <valueManagerType typeId="48404fc5-92e3-4088-b9bc-1f384083a5db" valueTypeId="49bf1260-1313-4c07-ab1a-97771addf381"/>
+    <valueKeyType typeId="71817b79-a9de-4d65-85a9-d17219392bb3" valueTypeId="4bc47219-015e-4122-9806-2d56ca98a710"/>
+  </producedTypes>
+  <name>ФО_ИнвентаризацияПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация пакетов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

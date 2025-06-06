@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="048ec155-7260-4cb7-9483-6bf3fec5fdef">
+  <producedTypes>
+    <managerType typeId="5368e71d-c45a-4d27-9927-31b100967aee" valueTypeId="d0dd621d-ddc6-47a7-8a00-5c67ec319783"/>
+    <valueManagerType typeId="f801eadb-596d-494c-9a25-2468c0283320" valueTypeId="9e04dfe0-d37f-4881-8429-af46a5ec1453"/>
+    <valueKeyType typeId="5348b751-c615-43ee-b25c-28a09c135f8c" valueTypeId="554cc19a-4b27-4f57-b87c-cf1d6f576202"/>
+  </producedTypes>
+  <name>ПоказыватьВилыПогрузчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать вилы погрузчика</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7a55849-d7e5-4059-9eae-cf5592a22a23">
+  <producedTypes>
+    <selectionType typeId="0890e412-e6db-4c36-8a18-b11de8db8950" valueTypeId="ed7b6c54-8788-48aa-937f-bdf6e8b5dafc"/>
+    <listType typeId="27ac7984-0bd3-4a42-a346-cc6605687c26" valueTypeId="de2c3c9c-2d7a-4036-bb72-1b696fd315dd"/>
+    <managerType typeId="9ade13af-22ba-405e-8847-6cb1f70e0d23" valueTypeId="549664db-adb4-44c1-81f7-a74d7b23f769"/>
+    <recordSetType typeId="639cea4b-e6e1-4fc3-9a4c-da332a052e41" valueTypeId="31915d6f-070c-4966-ac87-28593e74441c"/>
+    <recordKeyType typeId="a1c2a423-9f98-4425-906c-4adf5d677f26" valueTypeId="5981fac4-a2d1-473f-a2cf-f9ef070c56ad"/>
+    <recordType typeId="52c66c1d-3372-4863-9ba1-f0fa1e929ac2" valueTypeId="15e7327c-d691-4979-9319-69e27c768ee7"/>
+    <recordManagerType typeId="085b2627-dfee-4be7-8311-67766254ebc2" valueTypeId="7f3b8bf9-d226-4049-b479-89ffcc4a00c3"/>
+  </producedTypes>
+  <name>КешДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кеш данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="505eb422-8f62-4e3d-b521-2b842a9ad435">
+    <name>ОбъектТекущейИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект текущей ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="340ede95-0cf1-4198-af78-443e2e7fe854">
+    <name>БазаПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>База ПУ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыПУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="35c75502-6933-42d4-aedf-6b9b984cf870">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e0a8409-effd-4569-b76f-336f91f4484c">
+    <name>ИдентификаторПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ПУ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

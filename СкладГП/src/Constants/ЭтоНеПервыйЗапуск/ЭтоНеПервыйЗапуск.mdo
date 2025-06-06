@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36342d76-85b6-4542-a833-c6c1a488d3de">
+  <producedTypes>
+    <managerType typeId="0727fac0-454c-4fdd-8cc9-3aabf1b5c210" valueTypeId="b38b78a9-69a9-442b-a740-197970716d77"/>
+    <valueManagerType typeId="81758591-ea50-4db0-8f70-aa80abf953cc" valueTypeId="c44d859e-200f-44b2-8f7d-89293799d0ec"/>
+    <valueKeyType typeId="495f4125-3a70-4a53-9305-28431518e1b9" valueTypeId="d35a51a6-485a-4a61-a01c-ddd822227c65"/>
+  </producedTypes>
+  <name>ЭтоНеПервыйЗапуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Это не первый запуск</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28afbc1c-63cc-4b5c-b458-b1c74e0b982b">
+  <producedTypes>
+    <managerType typeId="21da97aa-a10a-466d-bf0f-0e326798505a" valueTypeId="da8471a7-2086-4686-95f5-cbc3237b23cf"/>
+    <valueManagerType typeId="282e8b82-7640-4a51-827b-4ae1d46f68e3" valueTypeId="277152c1-db94-478e-8b58-fff3aa7a136d"/>
+    <valueKeyType typeId="9b256dd6-7260-4d13-a34d-3e47827cf5e2" valueTypeId="89e5d94c-a3e5-432b-9479-b16fb9587677"/>
+  </producedTypes>
+  <name>ПериодичностьВыгрузкиИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность выгрузки изменений, сек</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

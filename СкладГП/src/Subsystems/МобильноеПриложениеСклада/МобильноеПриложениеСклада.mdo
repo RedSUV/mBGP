@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27440af7-4eac-4b3d-8a26-66b9acc8ec90">
+  <name>МобильноеПриложениеСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>МобильноеПриложениеСклада</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнвентаризацияЯчейки</content>
+  <content>FunctionalOption.ДоступПогрузчикБГП</content>
+  <content>FunctionalOption.ДоступМастерБГП</content>
+  <content>CommonPicture.КругЗеленый</content>
+  <content>CommonPicture.КругКрасный</content>
+  <content>CommonPicture.КругПустой</content>
+</mdclass:Subsystem>

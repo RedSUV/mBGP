@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b0a5702-097a-4c56-b463-e7ec35cca8cd">
+  <producedTypes>
+    <objectType typeId="1b1efe22-04c1-48cf-bae5-0012956fa41e" valueTypeId="6b63784c-6e48-4ebc-9ab0-fad4ac910df5"/>
+    <managerType typeId="38c24d20-5ca3-42b2-89f5-9dc1e962d490" valueTypeId="16f7bc67-9986-46b0-94af-c2ca3c9a861d"/>
+  </producedTypes>
+  <name>ИнвентаризацияЯчейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация штабеля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнвентаризацияЯчейки.Form.ФормаИнвентаризацииШтабеля</defaultForm>
+  <forms uuid="c698c4bb-26fb-40ce-853f-4e698a51fa9c">
+    <name>ФормаИнвентаризацииШтабеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма инвентаризации штабеля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

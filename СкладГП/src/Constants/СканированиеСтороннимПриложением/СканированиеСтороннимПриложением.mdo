@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7ec1bd-cd1c-45c4-b4d6-02245f91ca60">
+  <producedTypes>
+    <managerType typeId="bd3010a8-9ad8-402a-b54a-2698fc1db616" valueTypeId="a195c844-45df-41c9-8556-4f53f48bbff3"/>
+    <valueManagerType typeId="31e77c33-7aac-45bf-8af3-0e2c730ad99c" valueTypeId="656823b1-d384-4499-b0e2-77b3e13cea0c"/>
+    <valueKeyType typeId="7ea0a226-2c39-4802-879a-960c7e826d5a" valueTypeId="171ca22a-a06e-465a-822f-7e9e546d2a5f"/>
+  </producedTypes>
+  <name>СканированиеСтороннимПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование сторонним приложением</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

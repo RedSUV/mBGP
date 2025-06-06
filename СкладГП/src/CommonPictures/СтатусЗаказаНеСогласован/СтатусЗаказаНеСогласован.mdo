@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d79cae-7f80-4ae3-88d8-20e4e7341c74">
+  <name>СтатусЗаказаНеСогласован</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа не согласован</value>
+  </synonym>
+</mdclass:CommonPicture>

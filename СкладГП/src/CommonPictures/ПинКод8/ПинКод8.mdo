@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f9d7ab3-32df-43af-83e4-e30977a22bc7">
+  <name>ПинКод8</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пин код8</value>
+  </synonym>
+</mdclass:CommonPicture>

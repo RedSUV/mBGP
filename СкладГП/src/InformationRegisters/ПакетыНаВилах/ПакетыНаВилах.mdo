@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7f96f59-7b8d-4746-9905-cd10e3b779c6">
+  <producedTypes>
+    <selectionType typeId="088840f3-c938-486e-8f4a-574e798a0474" valueTypeId="3e1080c9-5c1d-4e1a-ad4a-532d0e18216e"/>
+    <listType typeId="f6737e7b-b7b8-4b0f-b0ae-cc35b4e03beb" valueTypeId="7fb236b8-d61d-485e-a23e-6ef2ec26c0fb"/>
+    <managerType typeId="ceb7b25d-d708-4ccf-9cc2-c49a02d5c36e" valueTypeId="3f70ad52-b189-4255-8c88-88d6baf9ffb5"/>
+    <recordSetType typeId="5f240984-12c0-4596-9492-86d571067d00" valueTypeId="ec396e10-1276-40e2-bcea-329bdab9d1ad"/>
+    <recordKeyType typeId="27a15377-fffd-4ae2-a00f-5fddaea02aa1" valueTypeId="114de216-a2ff-431f-a1fc-611c371d7a29"/>
+    <recordType typeId="e812bf70-2307-4eeb-aebb-106dae14497a" valueTypeId="047223d9-1fcd-49e8-97cd-7d0708922c4a"/>
+    <recordManagerType typeId="f413c353-bb9b-4c8a-b0d9-66e794299862" valueTypeId="701a5388-35cd-4d05-ac81-1cf29afa56da"/>
+  </producedTypes>
+  <name>ПакетыНаВилах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты на вилах</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="094138e2-a603-4325-b338-51ab3d8e518d">
+    <name>Пакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

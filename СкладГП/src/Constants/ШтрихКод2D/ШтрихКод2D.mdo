@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad9acd69-c7d7-450a-b304-f9c39b5670d2">
+  <producedTypes>
+    <managerType typeId="4196957a-2874-40df-b0de-ffe0ac3d3b15" valueTypeId="3cef0507-7caf-48f2-bc5f-da29ae40ea95"/>
+    <valueManagerType typeId="205a16f9-1d10-4b8c-9716-ae64aa2014db" valueTypeId="ea59d4bb-0e5b-49f2-b20a-fbca02599329"/>
+    <valueKeyType typeId="ba4c530c-441b-4e59-8440-e2ed1f4313f6" valueTypeId="cd14abdd-491a-421a-8890-cb9a1dd201e7"/>
+  </producedTypes>
+  <name>ШтрихКод2D</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрих код2 D</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

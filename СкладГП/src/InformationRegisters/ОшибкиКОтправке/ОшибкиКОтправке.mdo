@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9f4070c-89e5-4ebc-b1e0-001982bc068f">
+  <producedTypes>
+    <selectionType typeId="a9c38d51-57ff-4f9f-94f0-6201009096e4" valueTypeId="19f7ad71-4aad-4ae8-826b-844330e44493"/>
+    <listType typeId="90300d34-cb9b-4890-b89c-5f4e48b20458" valueTypeId="4feca3ca-1ade-4b2d-a431-4ad6f677f18e"/>
+    <managerType typeId="dd712d35-0c6c-412e-b2c8-3d5e2b0576ac" valueTypeId="3576ec18-4ce0-4483-bf60-f0679e163733"/>
+    <recordSetType typeId="3a7c1090-a5cb-4163-975d-b5ec82904a94" valueTypeId="f32d174b-889e-4e30-af0e-09bb8a859b88"/>
+    <recordKeyType typeId="a81b647b-8061-4564-8587-bf59c7b5a858" valueTypeId="481e12fb-f4e2-4c0e-9508-450f5d9a8ade"/>
+    <recordType typeId="01dd8628-cc32-4873-b2e4-b7aa72f98f25" valueTypeId="b4b020cd-bfdc-432e-8bc8-960626cd0478"/>
+    <recordManagerType typeId="8c065604-70b9-45f6-a4c8-55cf84e9cf86" valueTypeId="9ddeda09-8945-402d-9139-33c6a39a0f48"/>
+  </producedTypes>
+  <name>ОшибкиКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки к отправке</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c7f8d879-4170-4552-bf1d-30294fb64ef2">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="7f3602f4-8cf2-4ea8-a178-d36e1d58c95c">
+    <name>ДатаВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

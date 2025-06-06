@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d8233bd-1ed8-473f-a342-a09037335791">
+  <name>ДоступМастерБГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ мастер БГП</value>
+  </synonym>
+  <location>Constant.ФО_ДоступМастерБГП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ИнвентаризацияЯчейки</content>
+  <content>Report.ОстаткиСклада</content>
+  <content>CommonCommand.Настройки</content>
+  <content>CommonCommand.АрхивОтгрузок</content>
+</mdclass:FunctionalOption>

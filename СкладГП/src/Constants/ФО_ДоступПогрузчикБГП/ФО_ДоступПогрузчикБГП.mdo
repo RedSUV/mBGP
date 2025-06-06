@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb608edb-f7cb-441f-b04d-21f74478dfea">
+  <producedTypes>
+    <managerType typeId="16200801-1058-4bfa-a3df-420a2263ccb3" valueTypeId="4ccfa397-f985-46b5-bb29-d7fa7d75c368"/>
+    <valueManagerType typeId="5f222b3b-d3c8-4695-823c-1a92e00710a7" valueTypeId="7845cd3c-715a-4a7c-a2e4-a73efd57335c"/>
+    <valueKeyType typeId="042f8cc3-46a2-4ca5-9145-9090f2665c2f" valueTypeId="0230c3c9-81a1-49d7-a061-d2845ca1c018"/>
+  </producedTypes>
+  <name>ФО_ДоступПогрузчикБГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ -  погрузчик БГП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

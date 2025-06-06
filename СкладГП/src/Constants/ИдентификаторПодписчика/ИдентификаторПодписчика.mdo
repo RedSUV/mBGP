@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8843eb29-b937-4c32-ab1a-b5069e75efcb">
+  <producedTypes>
+    <managerType typeId="35e0a0e6-93dc-4ed3-b1f4-5a9dbcfcd0f5" valueTypeId="6e86e284-db7d-4091-9e96-45428af1ad8b"/>
+    <valueManagerType typeId="bb5015cd-f10b-4ce1-ad5b-f5cfd3164f32" valueTypeId="b43e9697-ea28-4a35-a005-ce6058e26a51"/>
+    <valueKeyType typeId="c1a1edd5-b589-4a3c-91aa-46949fc749a4" valueTypeId="e34cc69b-01b1-4255-b578-f02ed295a24a"/>
+  </producedTypes>
+  <name>ИдентификаторПодписчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор подписчика</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

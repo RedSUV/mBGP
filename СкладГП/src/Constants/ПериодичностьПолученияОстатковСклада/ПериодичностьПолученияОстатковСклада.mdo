@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7606e500-2ecc-4fc1-a1b0-1fa6d3a5a063">
+  <producedTypes>
+    <managerType typeId="04dd0b5d-7b7f-4faf-9bf0-9eb18e17ed69" valueTypeId="6c43322b-9146-4728-b353-7585f0777249"/>
+    <valueManagerType typeId="7a9f0632-88b6-4e0f-8bca-06dd53be7ae8" valueTypeId="1accda01-e4e4-499c-9ef3-46da40eb8552"/>
+    <valueKeyType typeId="c53deb93-b3a0-47d1-a511-dc7df95d5886" valueTypeId="b2510136-e88e-4ab2-aab0-4d17a6b0a3d2"/>
+  </producedTypes>
+  <name>ПериодичностьПолученияОстатковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность получения остатков склада, сек</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

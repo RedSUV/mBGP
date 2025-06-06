@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "settings": {
+    "begin-transaction": {
+      "enabled": true
+    },
+    "code-after-async-call": {
+      "enabled": true
+    },
+    "commit-transaction": {
+      "enabled": true
+    },
+    "common-module-name-client-server": {
+      "enabled": false
+    },
+    "doc-comment-description-ends-on-dot": {
+      "enabled": true
+    },
+    "redundant-export-method": {
+      "enabled": true
+    },
+    "common-module-type": {
+      "enabled": false
+    },
+    "common-module-name-global-client": {
+      "enabled": false
+    },
+    "rollback-transaction": {
+      "enabled": true
+    },
+    "common-module-name-client": {
+      "enabled": false
+    },
+    "form-items-single-event-handler": {
+      "enabled": false
+    },
+    "common-module-name-global": {
+      "enabled": false
+    },
+    "module-consecutive-blank-lines": {
+      "enabled": true
+    },
+    "form-commands-single-action-handler": {
+      "enabled": false
+    }
+  }
+}

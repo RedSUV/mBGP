@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce79156f-0c4d-4f27-be7b-fcfb9e1a10c9">
+  <name>КешДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кеш данных</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

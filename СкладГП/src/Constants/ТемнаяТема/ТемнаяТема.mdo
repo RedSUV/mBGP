@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddd22a5e-ae3b-41c8-b888-a3488aed8e47">
+  <producedTypes>
+    <managerType typeId="365a8f0c-52cc-4b64-8911-842d7943b7a0" valueTypeId="b68b68e4-f32e-479d-838e-942d0100a9fa"/>
+    <valueManagerType typeId="9ef53ec4-391f-4ac7-8045-5dc5821b2351" valueTypeId="d47a06d9-b70b-4f24-aea1-fa0338b241f2"/>
+    <valueKeyType typeId="c771ed66-46ae-429c-a9d7-a7a376254b60" valueTypeId="bf9edc95-15ad-4596-9e29-65bdad89ad18"/>
+  </producedTypes>
+  <name>ТемнаяТема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темная тема</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

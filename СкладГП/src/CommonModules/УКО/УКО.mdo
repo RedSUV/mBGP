@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8db59194-f8f6-451e-b7d2-c6eb58129e4c">
+  <name>УКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный коннектор обмена</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

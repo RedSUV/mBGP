@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676585c9-2b1c-4a9a-9407-ab193b085a20">
+  <name>Пакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

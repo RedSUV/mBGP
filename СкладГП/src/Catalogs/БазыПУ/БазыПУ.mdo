@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24962fc-b98e-493c-a952-a70acff30bcd">
+  <producedTypes>
+    <objectType typeId="94283505-e0f6-46cf-8469-80b3813f5d68" valueTypeId="9f5df404-1e6b-43cd-ab0c-31511f371179"/>
+    <refType typeId="452ec113-cd13-4fe8-a152-6a7079ce0bbf" valueTypeId="e7d411fd-7cbf-4da4-aaec-93ea0edd6d5c"/>
+    <selectionType typeId="63673c94-70c6-47fc-95f7-008de486f206" valueTypeId="538de1d0-64ed-4ba6-b0e5-77b97255470f"/>
+    <listType typeId="f389d29f-e8b7-4d75-8278-fe7660cd2d82" valueTypeId="1809ce33-b5e7-464e-99d1-ce69ac7c7974"/>
+    <managerType typeId="98906d1f-9f35-4b4b-9004-9ec220a0326e" valueTypeId="5477d64d-c6b6-41a1-a066-3e27585d4494"/>
+  </producedTypes>
+  <name>БазыПУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы ПУ</value>
+  </synonym>
+  <inputByString>Catalog.БазыПУ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БазыПУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f08ae48c-d29b-4bdc-a31e-687475b25fa3">
+      <name>ЛДК</name>
+      <description>ЛДК</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f91af39a-738b-4f2a-96f2-d7bf4adeabea">
+      <name>Свирь</name>
+      <description>Свирь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="21bc3465-33a2-4cde-ba18-7ddf4ca56abd">
+      <name>ХЛП</name>
+      <description>ХЛП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.БазыПУ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.БазыПУ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="0f4dfeea-cfd4-4577-b299-ceef6468b033">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>350</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdc5a5d1-fcbd-498f-832c-3482e9ac3410">
+    <name>ЛогинСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57369bb4-6ffe-4b25-ada9-2d48489990c5">
+    <name>ПарольСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55a5e5eb-f2c3-4d49-9187-8d9c192f1a4d">
+    <name>https</name>
+    <synonym>
+      <key>ru</key>
+      <value>Https</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76e64755-9b59-41b1-8a2d-dcb6687e7be7">
+    <name>АдресДляPing</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес для ping</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb4d996b-aff5-4210-8acc-7ef98c8c198a">
+    <name>УзелПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел плана обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.МобильноеПриложениеСкладПУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9a732a6-1d7a-47b2-96a3-b7a145567094">
+    <name>ЭтоERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это ERP</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ca92e81-630f-4391-9b8b-19e5c4101a28">
+    <name>ЭтоКопия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это копия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ffa8aef5-fa47-45d6-9e42-f464e0a663c1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6861b60c-1872-483f-a1ae-f6cb6fb9b728">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

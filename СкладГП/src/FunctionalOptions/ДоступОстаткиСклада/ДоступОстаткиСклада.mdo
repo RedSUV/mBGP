@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3255b9ba-f80c-417b-b4fa-0947002e6bcc">
+  <name>ДоступОстаткиСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ остатки склада</value>
+  </synonym>
+  <location>Constant.ФО_ДоступОстаткиСклада</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.ОстаткиСклада</content>
+  <content>DataProcessor.ИнвентаризацияЯчейки</content>
+  <content>CommonCommand.Настройки</content>
+</mdclass:FunctionalOption>

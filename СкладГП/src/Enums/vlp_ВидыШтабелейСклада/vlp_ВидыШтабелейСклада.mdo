@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2172084a-6cd3-4cb3-bc6e-74328cf406e6">
+  <producedTypes>
+    <refType typeId="aa373fe9-c3b0-473e-93b4-8f3decc7e67f" valueTypeId="da2b6f87-9752-4e27-a8e4-92b9f80eaa77"/>
+    <listType typeId="05de1a8d-cda6-4414-ab6c-fc6ca77dd9f1" valueTypeId="509c8821-b47b-40ec-b43c-32c7a61d2e91"/>
+    <managerType typeId="e37735a9-45f0-4c7f-9307-dcbf90865ab3" valueTypeId="230a07ac-8dbe-481a-90c0-9414f61b3f87"/>
+  </producedTypes>
+  <name>vlp_ВидыШтабелейСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Vlp виды штабелей склада</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1aa18f56-21ae-480c-bc51-336b4c3f9c71">
+    <name>Хранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcebea06-3673-4b29-8629-1f23ba929772">
+    <name>ОТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d979a39-1e75-431b-8e4f-a5981c5bc453">
+    <name>Подсборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6252ad06-89d5-469a-bcc1-32d780267ba3">
+    <name>СтолПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стол погрузки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

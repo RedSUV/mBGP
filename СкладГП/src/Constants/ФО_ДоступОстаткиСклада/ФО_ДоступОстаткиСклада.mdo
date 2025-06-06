@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58faef12-daeb-4920-9052-b587553a0670">
+  <producedTypes>
+    <managerType typeId="d91cbfb9-265e-4e77-a8dd-c45ba683ba58" valueTypeId="ff61e12a-c914-47ed-b973-67d50358a901"/>
+    <valueManagerType typeId="7a7da4ca-f1c6-45e0-b0d0-8c900251241b" valueTypeId="05a950f1-1c9d-4978-a53a-d59ba5e2cb8c"/>
+    <valueKeyType typeId="bc8c7c2c-f186-48f1-ade4-62537faeb8ff" valueTypeId="9ebfb660-9c13-4705-98ba-20bc888592e3"/>
+  </producedTypes>
+  <name>ФО_ДоступОстаткиСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ф о доступ остатки склада</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

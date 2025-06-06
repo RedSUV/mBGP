@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="CommonForm.ФормаВводаНомераПакета.Form">
+  <containments fqn="commands:КнопкаНажата1">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата2">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата7">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата4">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата8">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата3">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата9">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата5">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+  <containments fqn="commands:КнопкаНажата6">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+</suppress:SuppressGenericObject>

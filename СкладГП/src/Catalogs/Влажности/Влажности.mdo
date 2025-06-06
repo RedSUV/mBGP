@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b85ad49a-1132-497e-8580-62e3384e1210">
+  <producedTypes>
+    <objectType typeId="9f227952-f71d-4d18-898f-75528eee2f1f" valueTypeId="ffb497bb-c841-43dd-b386-3c0e6cf6ccd7"/>
+    <refType typeId="6aca0620-8ba9-4841-967f-70726cd9b068" valueTypeId="6db19525-2e00-4e22-a3f1-f759df874d49"/>
+    <selectionType typeId="ec4aa995-131b-41c8-9afd-860bbb487794" valueTypeId="674e15dc-2e66-4ee8-87fc-939487293361"/>
+    <listType typeId="640776a2-c19e-41c9-8e5b-4d30d008f329" valueTypeId="8d02ad15-35db-4b0f-b0dd-025b754159a1"/>
+    <managerType typeId="18043a06-981a-4193-9a16-6ba8e63521da" valueTypeId="f47bbeaa-1886-4199-a799-8f96b400e133"/>
+  </producedTypes>
+  <name>Влажности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Влажности</value>
+  </synonym>
+  <inputByString>Catalog.Влажности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Влажности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.БазыПУ</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Влажности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Влажности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Влажности.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="76ce201f-7d4b-49b8-b7af-29094b58b32d">
+    <name>ВерсияПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a3320745-e237-4f40-85b0-5663de50bdf4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e27bcebb-3fae-42ef-8844-b22ce4b87cac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e255f6d1-44f9-49ec-a298-50ec36eef7fd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

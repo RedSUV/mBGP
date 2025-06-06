@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2b8487-e381-4ca0-8892-e66e2bbbed37">
+  <name>ДоступПогрузчикБГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ погрузчик БГП</value>
+  </synonym>
+  <location>Constant.ФО_ДоступПогрузчикБГП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.Настройки</content>
+  <content>DataProcessor.ИнвентаризацияЯчейки</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5012155-f49d-4020-930e-ef30f04cda63">
+  <producedTypes>
+    <managerType typeId="1c4e9cb1-7cbd-4be9-b5e5-53da984cb316" valueTypeId="eca02676-249b-4d35-aae2-687efb4ff0a0"/>
+    <valueManagerType typeId="27b3a9e1-31d3-4c49-ba54-35290f1f4b18" valueTypeId="a33cac08-1f5c-4788-8a36-532db692a31b"/>
+    <valueKeyType typeId="ab25e941-87e3-4c9b-82b3-bd2519d2215e" valueTypeId="b081e90b-1cea-462d-b498-21afb5c7d761"/>
+  </producedTypes>
+  <name>ФО_РаботаСЭлОчередью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ф о работа с эл очередью</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

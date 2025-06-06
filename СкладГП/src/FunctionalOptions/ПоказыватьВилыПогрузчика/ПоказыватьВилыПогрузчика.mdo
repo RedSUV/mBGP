@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00026766-6e9c-4de6-920e-62af50a6bcb9">
+  <name>ПоказыватьВилыПогрузчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать вилы погрузчика</value>
+  </synonym>
+  <location>Constant.ПоказыватьВилыПогрузчика</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

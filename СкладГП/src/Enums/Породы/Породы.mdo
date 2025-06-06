@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7433daaa-8938-486c-b108-aa8ca51a9849">
+  <producedTypes>
+    <refType typeId="0e5f037b-f117-4c9c-be6a-87ec6db06eb2" valueTypeId="3646cfb1-dc4b-45cf-8902-0eb9f0a889b9"/>
+    <listType typeId="f606f1f7-9261-4bb7-a39d-8743203189c2" valueTypeId="37aba389-7fee-4193-be72-1514336154fe"/>
+    <managerType typeId="fcc7e95a-86b1-40c4-8112-84e148075d6c" valueTypeId="4d6a06bd-de62-4633-a5ac-3ee2d2467079"/>
+  </producedTypes>
+  <name>Породы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Породы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3ea8a49e-4949-4726-84fc-2ed723f5613d">
+    <name>Ель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ebe191f-d67d-47bd-b4e0-41a40d441520">
+    <name>Сосна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сосна</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

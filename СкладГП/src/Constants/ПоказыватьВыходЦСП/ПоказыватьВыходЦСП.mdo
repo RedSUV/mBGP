@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d9b86b3-9093-43b6-a21f-fbe2b3b3b507">
+  <producedTypes>
+    <managerType typeId="f1e78e3f-24b9-4c34-97c1-00f5c40f9725" valueTypeId="8adc5d67-54a2-475a-ad2c-37790164d89c"/>
+    <valueManagerType typeId="8a39f7b8-a078-4d88-988b-5840fd16ac65" valueTypeId="ae1964e8-ce4e-4a40-ae3f-f27c288ece81"/>
+    <valueKeyType typeId="98d56734-c2ca-4a02-91e5-4b248bb904c0" valueTypeId="fb704245-f936-4dd5-b0a1-cbb87d4a8fd8"/>
+  </producedTypes>
+  <name>ПоказыватьВыходЦСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать выход ЦСП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

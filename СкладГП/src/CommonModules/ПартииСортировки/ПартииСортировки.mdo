@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8091db17-9332-49f9-b90f-91b3713d73a9">
+  <name>ПартииСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партии сортировки</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

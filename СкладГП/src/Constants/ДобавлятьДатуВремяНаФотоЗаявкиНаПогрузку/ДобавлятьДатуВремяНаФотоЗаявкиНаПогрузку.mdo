@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36273a06-3981-4322-9ddf-b27f7540e3c8">
+  <producedTypes>
+    <managerType typeId="91f85db0-7ba5-4838-b779-d59dbbae7aea" valueTypeId="529b6bc1-d1aa-4425-b373-a2dfe7822fe1"/>
+    <valueManagerType typeId="1665b4b9-217f-44dc-879c-6be3305c0cd0" valueTypeId="dccf1795-be95-418e-85bd-26dce54030bf"/>
+    <valueKeyType typeId="4fb74d72-a42e-4804-88a6-7c3e1bf86155" valueTypeId="3009315d-3ee4-4d58-b684-239f489f8efc"/>
+  </producedTypes>
+  <name>ДобавлятьДатуВремяНаФотоЗаявкиНаПогрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять дату время на фото заявки на погрузку</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

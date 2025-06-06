@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3df03d31-2800-4db8-84f9-b4bc001b00d2">
+  <producedTypes>
+    <selectionType typeId="5f5edfea-1784-4304-a1c7-8c7163310ae3" valueTypeId="2c694390-63fd-4cc9-99b3-e07ef37f091f"/>
+    <listType typeId="d34c635a-9b47-4d47-9e36-d1044fca0e6a" valueTypeId="084f84bf-e8a0-413e-a253-533fd46d8482"/>
+    <managerType typeId="3740764a-8589-451f-951c-13d9ac0a6d7c" valueTypeId="02618c7e-7350-4eb9-b923-6bbd844330c7"/>
+    <recordSetType typeId="1b5d4b6a-5e3f-40cf-b654-a2ee5423817f" valueTypeId="74cf89c9-e6df-4b4f-ace0-95e4a2349b30"/>
+    <recordKeyType typeId="c308058e-ebaa-4758-96a4-ccdd1cf23ef4" valueTypeId="477fcefd-2bf8-4ff2-b6be-3e6ff7edafef"/>
+    <recordType typeId="3c97ab4f-7c7a-4d33-822f-3cfc9644cca0" valueTypeId="abe18219-3183-481e-9a25-bc506afcbf90"/>
+    <recordManagerType typeId="a021001a-4549-47ef-b094-87cb701dce0c" valueTypeId="30df5ab4-7acd-4aeb-9a1d-205c123d87fc"/>
+  </producedTypes>
+  <name>ДвоичныеДанныеПрисоединенныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Двоичные данные присоединенных файлов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d1f83e43-883c-4543-856c-b5c1dc0e1664">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3c586ca2-ea52-423f-819b-b37e6baa4647">
+    <name>Base64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Base64</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5c23b5f7-ddc7-4fd3-bea3-5f8ff0592e22">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="6a6fb36d-c722-43cc-b937-6deed18559f5">
+    <name>БазаПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>База ПУ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыПУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b1a7b047-5f08-45c3-87c2-4129cd612760">
+    <name>ID_Ссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>I d ссылки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d6ef840-71cc-4b10-9cfe-49d683d27934">
+    <name>ТипВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип владельца</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="7626e000-7587-4383-82f7-83b08d06f259">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="e923f9ff-8c7e-416d-8d4b-01d4f539f6f1">
+    <name>ID_Файла</name>
+    <synonym>
+      <key>ru</key>
+      <value>I d файла</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d33936c-4478-4b3c-b0fe-0165124bd824">
+  <name>ItobИконкаГрузовикЖелтый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка грузовик желтый</value>
+  </synonym>
+</mdclass:CommonPicture>

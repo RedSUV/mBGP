@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20ef67af-f824-49d2-b28d-dae66ce2c19d">
+  <name>ЗаданияНаВывозку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на вывозку</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

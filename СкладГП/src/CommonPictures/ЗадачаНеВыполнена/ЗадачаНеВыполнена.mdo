@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00dcd20b-6108-4d77-89e8-ff466caab32b">
+  <name>ЗадачаНеВыполнена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача не выполнена</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The task is not done</value>
+  </synonym>
+</mdclass:CommonPicture>

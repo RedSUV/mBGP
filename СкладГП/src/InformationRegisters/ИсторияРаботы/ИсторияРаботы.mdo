@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86dbedeb-3045-4380-87a6-5e46dacf8334">
+  <producedTypes>
+    <selectionType typeId="70776c6a-4e39-4bd4-b0ce-176702f0d033" valueTypeId="8fae4eb3-f50e-4a3c-8126-296541a42c44"/>
+    <listType typeId="176768b1-ad3c-42ed-a1a4-7f0d3f67cc1b" valueTypeId="84004c20-4160-48c2-906b-061958a59ee6"/>
+    <managerType typeId="155b31b0-943e-461f-947c-6c5c0cc66bf2" valueTypeId="389db679-9482-42d0-a068-6a993961c0d7"/>
+    <recordSetType typeId="ca9ae4dc-3b39-47c6-9003-5cc94a10a7b4" valueTypeId="1e3d3aa4-8ce2-4d3a-ae83-585abbc01efe"/>
+    <recordKeyType typeId="84d7ec02-2894-4960-b457-02528ea74c29" valueTypeId="bd815a6b-bfa9-464a-bbb2-9c2f37d0a0cd"/>
+    <recordType typeId="88f76367-dcf0-4dd2-a807-6f193195dc79" valueTypeId="877474e3-46e0-4941-aca5-9a3e8c4a9c30"/>
+    <recordManagerType typeId="5d8a795e-c38c-4f22-8c3b-c80c9e5c36ba" valueTypeId="94d2f15d-b8f1-4f04-821b-a6ee7f6656d1"/>
+  </producedTypes>
+  <name>ИсторияРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>История работы</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИсторияРаботы.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИсторияРаботы.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="d837d98d-6a03-49cc-9a39-2f63f94a3055">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="457b5f13-8f84-4e88-9038-987215025757">
+    <name>ИмяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d1572768-e40e-4f98-9561-eac53380ddf4">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="614a2480-7bc8-47d5-b4b0-6844f418940f">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ae4f838a-43a1-4a6f-813f-4eac50d0c636">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7281373f-a943-4c83-826e-22fe8f2fc60a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

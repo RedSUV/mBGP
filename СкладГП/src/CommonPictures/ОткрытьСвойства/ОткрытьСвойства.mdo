@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15440eb7-186f-4098-9d29-101f53ac03ac">
+  <name>ОткрытьСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть свойства</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Breakdown of receivables</value>
+  </synonym>
+</mdclass:CommonPicture>

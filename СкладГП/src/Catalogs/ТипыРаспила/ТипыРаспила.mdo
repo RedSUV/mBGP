@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a05cabb3-6a0b-48f5-9e7f-ba125a20471f">
+  <producedTypes>
+    <objectType typeId="60868fa2-ef7e-4714-95ff-ce21806e8de1" valueTypeId="ab4dbe3a-6809-4a64-85e2-01be9032c06c"/>
+    <refType typeId="9c23692e-5af7-4685-a989-695a71e1f6be" valueTypeId="b6379de4-3645-4dac-bedf-7a7c2268960a"/>
+    <selectionType typeId="7e1a3e2d-ca9d-4d75-a6ce-38472ff07f42" valueTypeId="eff9f585-2907-4599-a91c-ecb32b8bcf75"/>
+    <listType typeId="2d3afd8c-a75a-48ff-9e18-7513f89c4f21" valueTypeId="9c066a34-b7ce-4dd5-b0d9-5ea3f7cbb621"/>
+    <managerType typeId="544915a5-6f1c-4458-9be4-c3ef47f60275" valueTypeId="4b69bc24-6777-4972-a171-2099b7a2a9db"/>
+  </producedTypes>
+  <name>ТипыРаспила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы распила</value>
+  </synonym>
+  <inputByString>Catalog.ТипыРаспила.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыРаспила.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.БазыПУ</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыРаспила.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыРаспила.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыРаспила.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ea52a388-6239-4e03-ac39-67bcb1930826">
+    <name>ВерсияПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d27b74cb-bdf4-45f1-a4a1-4944b624ba23">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ca01ecd-7b8a-46ef-a566-8b089b3d0d4e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45d28c5d-abb1-4e3e-ab93-1ca491cb4da5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

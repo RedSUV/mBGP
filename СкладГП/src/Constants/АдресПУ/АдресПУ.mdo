@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4acb6187-8cae-4b73-8bd7-7bcf11cbbb78">
+  <producedTypes>
+    <managerType typeId="2445ead1-5762-4ffd-aa42-6f4132cb4346" valueTypeId="1ef2f525-72fe-45da-89cb-659e25a68659"/>
+    <valueManagerType typeId="810b0f05-9294-45c5-954a-974455b84224" valueTypeId="1f718559-2786-4d5f-bb82-5ce605d6c70e"/>
+    <valueKeyType typeId="1d2950ed-4f93-4241-8935-6220e98013b0" valueTypeId="820ac9d6-0294-4cd2-b073-aaae89d22f40"/>
+  </producedTypes>
+  <name>АдресПУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес ПУ</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БазыПУ</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

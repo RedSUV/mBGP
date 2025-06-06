@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c905c2fd-03a5-4b83-954a-618af4037949">
+  <name>ФормаПартииСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма партии сортировки</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

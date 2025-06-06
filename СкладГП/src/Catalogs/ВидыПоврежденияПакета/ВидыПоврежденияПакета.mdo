@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e55ab3-20cd-414e-8a27-f18fd26058fe">
+  <producedTypes>
+    <objectType typeId="d53f837a-1e1c-4020-adfa-498db8169876" valueTypeId="75a3209a-0e1a-4791-a3eb-b7fee410b65b"/>
+    <refType typeId="60361fd0-2939-4774-bc97-0f932ffc0d23" valueTypeId="693e1195-e3f5-4597-b799-b2b3d6cd2a8d"/>
+    <selectionType typeId="b99e44f0-96e7-45e5-924b-7f6ba495e40a" valueTypeId="e4df3e20-6eb9-4a34-b426-972fc50feb69"/>
+    <listType typeId="6d8a94c6-6afc-4a5c-bb9d-ce35f58ecd98" valueTypeId="027fcdaf-95dd-4966-b4cd-6e1836a8dbee"/>
+    <managerType typeId="a303e24c-9ff7-432b-8001-a25ae18d9cd9" valueTypeId="1f3da9fb-9823-479a-b9a0-8f2bf2c365fc"/>
+  </producedTypes>
+  <name>ВидыПоврежденияПакета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды повреждения пакета</value>
+  </synonym>
+  <inputByString>Catalog.ВидыПоврежденияПакета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыПоврежденияПакета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.БазыПУ</owners>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыПоврежденияПакета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ВидыПоврежденияПакета.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="cd968492-02b3-4ec2-804c-e9c33b4b4ab0">
+    <name>ВерсияПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="16763849-3fd0-4140-8780-f1d0182dabc3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55a3e410-1c41-436c-b8a1-d5a5d6ca8514">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

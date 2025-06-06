@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cb2821e-3d3e-4ce8-ae69-03eaaab66b84">
+  <producedTypes>
+    <objectType typeId="980cfce6-4d04-48cf-9d00-f5e203c0e255" valueTypeId="42fc3a65-3712-4db7-a486-5c64503dffb6"/>
+    <refType typeId="9bfda0dc-bf7d-44b1-a882-03207f1cc3ed" valueTypeId="48bc013b-e477-4f5d-b8b5-fd62a49ef3d0"/>
+    <selectionType typeId="d83443bf-7458-4e8f-8647-b1056ecf3870" valueTypeId="ad8a72d9-99a5-4f40-8e13-f6830dc5703a"/>
+    <listType typeId="40b2d9a2-8e79-45c7-9c66-d3f6469ed035" valueTypeId="229e39d0-ba13-40cb-9be1-b8bcf7050a16"/>
+    <managerType typeId="23b0eaf8-8093-47ed-aaf3-70e161b4e961" valueTypeId="62d3ca48-3f3a-4363-89ee-f941df2ddf4b"/>
+  </producedTypes>
+  <name>ВидыПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продукции</value>
+  </synonym>
+  <inputByString>Catalog.ВидыПродукции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыПродукции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.БазыПУ</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыПродукции.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыПродукции.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыПродукции.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="356c2e24-d395-4c47-9a0d-457d3863aa53">
+    <name>БоковойПМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Боковой ПМ, иначе - Центральный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be1872b2-1f8a-4228-a2c5-df70e9fc35ed">
+    <name>ВерсияПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="11d9b871-fde5-486a-870e-ca21dc7811ac">
+    <producedTypes>
+      <objectType typeId="1a681ce4-c240-4b59-b14a-d51e97dffb61" valueTypeId="9cfb280f-b10e-4115-9be4-1b32fa3bf772"/>
+      <rowType typeId="3c6dea15-6bea-4dbf-b0f8-2de826f29676" valueTypeId="0cd98d1a-6f4e-4747-bb25-21318947bab4"/>
+    </producedTypes>
+    <name>ВозможныеСортаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможные сорта выхода</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="57bfdd65-1013-45bc-b135-a82c8a904cd9">
+      <name>Сорт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сорт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сорта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9804eb32-d960-4fbe-be44-fe1fbcc1de2c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d5100c9-3152-4c3d-9a7a-c93f3d87d80c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e3bfcda-f644-4450-9819-e131a88bf973">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28afb4c-fc10-4245-b629-3c694f7b9148">
+  <name>ПередЗаписьюДляРегистрацииВПланеОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью для регистрации в плане обмена</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДвоичныеДанныеПрисоединенныхФайлов</types>
+    <types>InformationRegisterRecordSet.ОстаткиПакетовНаСкладах</types>
+    <types>InformationRegisterRecordSet.ПоврежденныеПакеты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбработчикиПодписокНаСобытия.ПередЗаписьюДляРегистрацииВПланеОбмена</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdfd47ed-fc05-4959-8174-ca1271329185">
+  <producedTypes>
+    <managerType typeId="1146e3f4-5979-451f-a0e5-89ab1ff2d427" valueTypeId="edee998e-2096-4c17-9176-d00d790102c6"/>
+    <valueManagerType typeId="bde2c45a-6315-47b0-838e-00095d416732" valueTypeId="55f3c7ea-2e3c-413f-a5ea-045fcc2f80a1"/>
+    <valueKeyType typeId="5ad5787f-5071-4871-9c21-b399ac23e5ac" valueTypeId="02dc1e24-dc9d-47ba-8fd7-f100541efdfd"/>
+  </producedTypes>
+  <name>Authentication</name>
+  <synonym>
+    <key>ru</key>
+    <value>Authentication</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

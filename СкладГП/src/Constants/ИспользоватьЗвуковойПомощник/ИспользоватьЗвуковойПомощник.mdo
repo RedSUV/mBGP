@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96499df0-f8a8-4274-be75-d0cb4ce03ef2">
+  <producedTypes>
+    <managerType typeId="a2270f78-a9c5-4f3a-8f99-6d55d0445a9f" valueTypeId="dca5a27e-3046-47d8-b380-9a58dfb1182b"/>
+    <valueManagerType typeId="ec440298-a5c6-4072-af49-fbad533c7e5f" valueTypeId="8c14901c-94ac-4d8e-87c0-a3a80242f0b3"/>
+    <valueKeyType typeId="f3b23f2d-a611-400e-9af1-148d51c89b11" valueTypeId="02faf80a-0a42-4a49-b931-24dfbe266a93"/>
+  </producedTypes>
+  <name>ИспользоватьЗвуковойПомощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать звуковой помощник</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

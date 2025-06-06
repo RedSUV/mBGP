@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d470a691-2d35-43c1-8c60-9c6701ba343b">
+  <producedTypes>
+    <managerType typeId="e0b7927b-6d96-44d7-9dc2-a0c044773ed7" valueTypeId="06afb398-ff2f-4575-b680-032af1b53f59"/>
+    <valueManagerType typeId="871b3596-a2b7-487e-acba-edbd91913613" valueTypeId="338bbed1-b01b-4e5f-b799-ba08a97bc02f"/>
+    <valueKeyType typeId="0511dae0-a05c-4bb8-a197-d10592eb5fc5" valueTypeId="bdf2a5b4-b330-4ff8-853e-066e8f696298"/>
+  </producedTypes>
+  <name>ФО_ДоступМастерБГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ -  мастер БГП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

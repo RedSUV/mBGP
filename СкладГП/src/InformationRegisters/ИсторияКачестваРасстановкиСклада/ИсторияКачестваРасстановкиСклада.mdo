@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="633abad1-eaf4-41c5-aea6-c522dcabe249">
+  <producedTypes>
+    <selectionType typeId="f1840e4d-799a-4227-87c5-9b496dc57986" valueTypeId="7fbaf7ba-8c45-4677-a273-45d6f64f96b5"/>
+    <listType typeId="ca78bdaf-9ac6-4d8d-8808-e8b78c62a41d" valueTypeId="7b8abc7c-8cfb-4ec4-a54a-b52cd7de848b"/>
+    <managerType typeId="c792278a-828d-4092-bbde-7b95b926852b" valueTypeId="bd62e70f-f43c-4ebb-a802-ee2e67c9815d"/>
+    <recordSetType typeId="c4e91a28-98ab-42d5-a9df-122e1a9760e0" valueTypeId="9d07ac58-72b4-4564-9f04-e716fb0ccacd"/>
+    <recordKeyType typeId="1c127d67-faf0-4759-9e9d-0d197204e9d6" valueTypeId="b92a1f61-4212-470e-abf1-084690245fdf"/>
+    <recordType typeId="2f333baf-9750-437a-a552-de368e6211c0" valueTypeId="a4049a1f-917d-4c98-901c-e660eab4050c"/>
+    <recordManagerType typeId="56322232-37b0-44eb-8ea5-f68e904ba76a" valueTypeId="277e3b0f-3e4d-48dc-90e7-14f89ed955fb"/>
+  </producedTypes>
+  <name>ИсторияКачестваРасстановкиСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>История качества расстановки склада</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8b6ce950-3e6f-416e-bc25-bc17340f26e5">
+    <name>Всего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7b19a266-357e-4ae4-bac1-b580e2713e68">
+    <name>Расставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расставлено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6c64db02-d47d-4539-bc99-180dfac618a3">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

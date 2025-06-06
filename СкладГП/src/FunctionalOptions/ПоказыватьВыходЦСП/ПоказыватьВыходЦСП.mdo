@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45faf8fd-c3b1-4cd2-83fc-c711b694ca34">
+  <name>ПоказыватьВыходЦСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать выход ЦСП</value>
+  </synonym>
+  <location>Constant.ПоказыватьВыходЦСП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

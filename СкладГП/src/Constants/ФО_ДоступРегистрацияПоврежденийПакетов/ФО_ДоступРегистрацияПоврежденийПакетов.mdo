@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a789357-859c-4118-866e-14f397d4ad8c">
+  <producedTypes>
+    <managerType typeId="ecb84902-b943-4c56-8737-e2817a838503" valueTypeId="0ab03bc4-08b4-4d40-bbd2-0196ddf073c1"/>
+    <valueManagerType typeId="c295bcaa-51d0-4770-969e-c073a8e78321" valueTypeId="e1e4a6c0-446c-40df-a87e-3f0e71e10039"/>
+    <valueKeyType typeId="9d9cfb22-d3da-4d9f-a80b-69933bece3b9" valueTypeId="7ef2f54d-d065-4d44-a846-be2215b73a82"/>
+  </producedTypes>
+  <name>ФО_ДоступРегистрацияПоврежденийПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ф о доступ регистрация повреждений пакетов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91825596-4aa6-485a-a790-7ce6dca6bab0">
+  <producedTypes>
+    <managerType typeId="67b50969-7418-419e-8606-7518e871c240" valueTypeId="935388be-6403-470a-97d2-cd40fc06cd2f"/>
+    <valueManagerType typeId="86cd6637-7b6a-47bd-a28f-47f9cd4dcad4" valueTypeId="8df157f0-acb1-4188-b825-f00c4a921f81"/>
+    <valueKeyType typeId="222a053b-4289-4895-9cdb-b03dc0220fd0" valueTypeId="411914af-403c-46f6-be97-6404e351092a"/>
+  </producedTypes>
+  <name>УзелПУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Узел ПУ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
