@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d2f427-78f8-48de-a6bd-1b47edecc067">
+  <producedTypes>
+    <managerType typeId="9ac4d860-c5db-438b-bbd3-2bfeba73c11b" valueTypeId="62c5d187-f8a8-4ff8-8def-db4b0474ad58"/>
+    <valueManagerType typeId="90500f4f-e8ff-4eb9-b917-070d1ba4f94d" valueTypeId="8decb76c-ce5f-47b8-bee1-8ac71d1f3d6a"/>
+    <valueKeyType typeId="247a76cb-ea04-4278-b95b-4c53efee494e" valueTypeId="63bb7164-77be-4b9b-ad3d-e37f4011b510"/>
+  </producedTypes>
+  <name>ОтключитьЗаписьТрека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить запись трека</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

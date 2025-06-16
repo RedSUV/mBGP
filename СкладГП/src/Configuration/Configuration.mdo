@@ -278,6 +278,7 @@
   <constants>Constant.ПоказыватьВилыПогрузчика</constants>
   <constants>Constant.ПоказыватьВыходЦСП</constants>
   <constants>Constant.ДобавлятьДатуВремяНаФотоЗаявкиНаПогрузку</constants>
+  <constants>Constant.ОтключитьЗаписьТрека</constants>
   <commonForms>CommonForm.НастройкаШаблонаОписанияПакета</commonForms>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <commonForms>CommonForm.ФормаВводаНомераПакета</commonForms>
