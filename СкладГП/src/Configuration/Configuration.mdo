@@ -16,7 +16,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>АО ГК ВЛП</vendor>
-  <version>1.003.28</version>
+  <version>1.003.29</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
