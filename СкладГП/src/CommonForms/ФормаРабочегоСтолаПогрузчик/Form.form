@@ -253,7 +253,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>AlwaysHorizontal</group>
         <horizontalSpacing>None</horizontalSpacing>
-        <verticalSpacing>None</verticalSpacing>
+        <verticalSpacing>Half</verticalSpacing>
         <verticalAlign>Center</verticalAlign>
         <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
@@ -779,8 +779,6 @@
           <autoMaxHeight>true</autoMaxHeight>
           <choiceMode>true</choiceMode>
           <selectionMode>MultiRow</selectionMode>
-          <headerHeight>1</headerHeight>
-          <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
           <horizontalLines>true</horizontalLines>
@@ -793,6 +791,9 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
           <searchStringLocation>None</searchStringLocation>
           <groupVerticalAlign>Top</groupVerticalAlign>
           <refreshRequest>PullFromTop</refreshRequest>
@@ -800,7 +801,7 @@
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <items xsi:type="form:Table">
-          <name>БуферЦСП</name>
+          <name>БуферЦСП_Стиль1</name>
           <id>125</id>
           <title>
             <key>ru</key>
@@ -931,7 +932,7 @@
           </items>
           <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
-            <name>БуферЦСПКоманднаяПанель</name>
+            <name>БуферЦСП_Стиль1КоманднаяПанель</name>
             <id>127</id>
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
@@ -941,10 +942,10 @@
             <name>БуферЦСПОбработкаЗапросаОбновления</name>
           </handlers>
           <searchStringAddition>
-            <name>БуферЦСПСтрокаПоиска</name>
+            <name>БуферЦСП_Стиль1СтрокаПоиска</name>
             <id>129</id>
             <extendedTooltip>
-              <name>БуферЦСПСтрокаПоискаРасширеннаяПодсказка</name>
+              <name>БуферЦСП_Стиль1СтрокаПоискаРасширеннаяПодсказка</name>
               <id>131</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -954,20 +955,20 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>БуферЦСПСтрокаПоискаКонтекстноеМеню</name>
+              <name>БуферЦСП_Стиль1СтрокаПоискаКонтекстноеМеню</name>
               <id>130</id>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>БуферЦСП</source>
+            <source>БуферЦСП_Стиль1</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
           </searchStringAddition>
           <viewStatusAddition>
-            <name>БуферЦСПСостояниеПросмотра</name>
+            <name>БуферЦСП_Стиль1СостояниеПросмотра</name>
             <id>132</id>
             <extendedTooltip>
-              <name>БуферЦСПСостояниеПросмотраРасширеннаяПодсказка</name>
+              <name>БуферЦСП_Стиль1СостояниеПросмотраРасширеннаяПодсказка</name>
               <id>134</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -977,21 +978,21 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>БуферЦСПСостояниеПросмотраКонтекстноеМеню</name>
+              <name>БуферЦСП_Стиль1СостояниеПросмотраКонтекстноеМеню</name>
               <id>133</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>БуферЦСП</source>
+            <source>БуферЦСП_Стиль1</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
           </viewStatusAddition>
           <searchControlAddition>
-            <name>БуферЦСПУправлениеПоиском</name>
+            <name>БуферЦСП_Стиль1УправлениеПоиском</name>
             <id>135</id>
             <extendedTooltip>
-              <name>БуферЦСПУправлениеПоискомРасширеннаяПодсказка</name>
+              <name>БуферЦСП_Стиль1УправлениеПоискомРасширеннаяПодсказка</name>
               <id>137</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1001,18 +1002,18 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>БуферЦСПУправлениеПоискомКонтекстноеМеню</name>
+              <name>БуферЦСП_Стиль1УправлениеПоискомКонтекстноеМеню</name>
               <id>136</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>БуферЦСП</source>
+            <source>БуферЦСП_Стиль1</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>БуферЦСПРасширеннаяПодсказка</name>
+            <name>БуферЦСП_Стиль1РасширеннаяПодсказка</name>
             <id>128</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1022,7 +1023,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>БуферЦСПКонтекстноеМеню</name>
+            <name>БуферЦСП_Стиль1КонтекстноеМеню</name>
             <id>126</id>
             <items xsi:type="form:Button">
               <name>БуферЦСПКонтекстноеМенюВзятьНаВилыИзБуфера</name>
@@ -1043,6 +1044,34 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ВзятьНаВилыИзБуфера</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>БуферЦСПКонтекстноеМенюКнопкаОбновить</name>
+              <id>172</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>БуферЦСПКонтекстноеМенюКнопкаОбновитьРасширеннаяПодсказка</name>
+                <id>173</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1071,10 +1100,14 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
           <searchStringLocation>None</searchStringLocation>
           <refreshRequest>PullFromTopOrBottom</refreshRequest>
           <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
+            <autoRefresh>true</autoRefresh>
             <autoRefreshPeriod>60</autoRefreshPeriod>
             <period>
               <startDate>0001-01-01T00:00:00</startDate>
@@ -1111,6 +1144,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
+          <verticalSpacing>Half</verticalSpacing>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -1210,6 +1244,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <verticalSpacing>Half</verticalSpacing>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <throughAlign>Auto</throughAlign>

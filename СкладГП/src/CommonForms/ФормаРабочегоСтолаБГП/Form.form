@@ -541,6 +541,9 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
           <refreshRequest>PullFromTop</refreshRequest>
           <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
           <rowFilter xsi:type="core:UndefinedValue"/>
@@ -1126,6 +1129,9 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
           <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
@@ -1937,6 +1943,9 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.FormBackColor</color>
+        </borderColor>
         <searchStringLocation>None</searchStringLocation>
         <groupVerticalAlign>Top</groupVerticalAlign>
         <refreshRequest>PullFromTop</refreshRequest>
@@ -4288,6 +4297,9 @@
         <rowPictureDataPath xsi:type="form:DataPath">
           <segments>НайденныеПакеты.Состояние</segments>
         </rowPictureDataPath>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.FormBackColor</color>
+        </borderColor>
         <searchStringLocation>None</searchStringLocation>
         <refreshRequest>PullFromTop</refreshRequest>
         <currentRowUse>Choice</currentRowUse>
@@ -4421,6 +4433,7 @@
   <excludedCommands>Yes</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
+  <verticalSpacing>Half</verticalSpacing>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

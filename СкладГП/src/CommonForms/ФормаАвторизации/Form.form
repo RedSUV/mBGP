@@ -62,6 +62,7 @@
             <event>StartChoice</event>
             <name>АдресПУНачалоВыбора</name>
           </handlers>
+          <width>20</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
@@ -73,10 +74,8 @@
           <textColor xsi:type="core:ColorDef">
             <green>128</green>
           </textColor>
-          <borderColor xsi:type="core:ColorDef">
-            <red>235</red>
-            <green>235</green>
-            <blue>235</blue>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
           </borderColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -144,6 +143,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>20</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
@@ -171,10 +171,8 @@
           <textColor xsi:type="core:ColorDef">
             <green>128</green>
           </textColor>
-          <borderColor xsi:type="core:ColorDef">
-            <red>235</red>
-            <green>235</green>
-            <blue>235</blue>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
           </borderColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -263,7 +261,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <width>10</width>
+          <width>20</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -273,10 +271,8 @@
           <textColor xsi:type="core:ColorDef">
             <green>128</green>
           </textColor>
-          <borderColor xsi:type="core:ColorDef">
-            <red>235</red>
-            <green>235</green>
-            <blue>235</blue>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
           </borderColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -333,7 +329,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <width>10</width>
+          <width>20</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -344,10 +340,8 @@
           <textColor xsi:type="core:ColorDef">
             <green>128</green>
           </textColor>
-          <borderColor xsi:type="core:ColorDef">
-            <red>235</red>
-            <green>235</green>
-            <blue>235</blue>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
           </borderColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -456,7 +450,9 @@
       <backColor xsi:type="core:ColorRef">
         <color>Style.AuxiliaryNavigationColor</color>
       </backColor>
-      <borderColor xsi:type="core:ColorDef"/>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.FormBackColor</color>
+      </borderColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
       </font>
