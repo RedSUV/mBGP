@@ -19,21 +19,6 @@
   <defaultRecordForm>InformationRegister.ЗаданияНаВывозВПодсборки.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.ЗаданияНаВывозВПодсборки.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="900305ca-320e-4245-9a8b-cc66e899b053">
-    <name>Подсборка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подсборка</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Ячейки</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="eb332f5f-6370-402a-a2a4-aea750bae9f0">
     <name>Выполнено</name>
     <synonym>
@@ -64,23 +49,40 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="fe363b0c-93f4-448d-9bce-5ff822f3b8ea">
-    <name>ПланДата</name>
+  <resources uuid="900305ca-320e-4245-9a8b-cc66e899b053">
+    <name>Подсборка</name>
     <synonym>
       <key>ru</key>
-      <value>План дата</value>
+      <value>Подсборка</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.Ячейки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e3578a27-9ffe-4d0f-bfb8-bd3a44219a5d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </attributes>
   <attributes uuid="e3cc928d-e4a3-4661-81e5-13957432489f">
     <name>НомерЗаявки</name>
@@ -102,31 +104,29 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="f11a64e7-23a4-4df8-99c5-6afb7293fee4">
-    <name>Покупатель</name>
+  <attributes uuid="fe363b0c-93f4-448d-9bce-5ff822f3b8ea">
+    <name>ПланДата</name>
     <synonym>
       <key>ru</key>
-      <value>Покупатель</value>
+      <value>План дата</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="e3578a27-9ffe-4d0f-bfb8-bd3a44219a5d">
-    <name>Комментарий</name>
+  <attributes uuid="f11a64e7-23a4-4df8-99c5-6afb7293fee4">
+    <name>Покупатель</name>
     <synonym>
       <key>ru</key>
-      <value>Комментарий</value>
+      <value>Покупатель</value>
     </synonym>
     <type>
       <types>String</types>

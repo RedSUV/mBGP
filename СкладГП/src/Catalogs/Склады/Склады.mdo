@@ -33,6 +33,25 @@
   <defaultObjectForm>Catalog.Склады.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Склады.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="46bc4082-0729-4db5-a45e-153679c4351e">
+    <name>ВспомогательныйСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вспомогательный склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.Склады.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="615437a1-16e7-43e7-a19d-db3b03bfc209">
     <name>ИмяПредопределенногоПУ</name>
     <synonym>
@@ -55,25 +74,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="46bc4082-0729-4db5-a45e-153679c4351e">
-    <name>ВспомогательныйСклад</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вспомогательный склад</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Склады</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Catalog.Склады.StandardAttribute.Owner</field>
-    </choiceParameterLinks>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="8c650842-97af-4e2d-9ca3-b38bf58d924c">
     <name>ОтображатьПриАвторизации</name>
     <synonym>
@@ -89,11 +89,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ff7e61f5-5b29-44cd-bf37-f1b075f7932b">
-    <name>ФормаЭлемента</name>
+  <forms uuid="4b27dd8b-f763-47a7-a78d-e3f87581a3ae">
+    <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -107,11 +107,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="4b27dd8b-f763-47a7-a78d-e3f87581a3ae">
-    <name>ФормаВыбора</name>
+  <forms uuid="ff7e61f5-5b29-44cd-bf37-f1b075f7932b">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

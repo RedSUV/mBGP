@@ -16,21 +16,23 @@
   </synonym>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="bc40da83-7d46-4ae4-bb22-52d404337980">
-    <name>Ячейка</name>
+  <resources uuid="cfd2c9df-deff-4ef3-a5fd-0b221aef9fc8">
+    <name>Досок</name>
     <synonym>
       <key>ru</key>
-      <value>Ячейка</value>
+      <value>Досок</value>
     </synonym>
     <type>
-      <types>CatalogRef.Ячейки</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
   </resources>
   <resources uuid="83bbe972-3fa2-4741-9edd-65f9f2d566c0">
     <name>Объем</name>
@@ -43,24 +45,6 @@
       <numberQualifiers>
         <precision>10</precision>
         <scale>3</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="cfd2c9df-deff-4ef3-a5fd-0b221aef9fc8">
-    <name>Досок</name>
-    <synonym>
-      <key>ru</key>
-      <value>Досок</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -105,6 +89,38 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="bc40da83-7d46-4ae4-bb22-52d404337980">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ячейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="16ddef80-155a-40a6-9119-1a4d653f9421">
+    <name>ВремяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="08e27aeb-fda3-4b3b-88ef-d8df361a505e">
     <name>Номер</name>
     <synonym>
@@ -124,22 +140,6 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-  </attributes>
-  <attributes uuid="16ddef80-155a-40a6-9119-1a4d653f9421">
-    <name>ВремяСобытия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время события</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="ff37d879-da8b-4381-a698-7eacc3a1f3d3">
     <name>Склад</name>

@@ -33,36 +33,6 @@
   <defaultObjectForm>Catalog.Сорта.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Сорта.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Сорта.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="1c4a68c7-541d-43c8-8563-cd5f58a32235">
-    <name>ВысшийСорт</name>
-    <synonym>
-      <key>ru</key>
-      <value>Высший сорт</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="873f44dd-a04f-419d-88be-4e84ea173794">
-    <name>ВнутреннийРынок</name>
-    <synonym>
-      <key>ru</key>
-      <value>Внутренний рынок</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="865c5515-72b3-444e-a417-263ee230db45">
     <name>ВерсияПУ</name>
     <synonym>
@@ -84,20 +54,50 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="3a6a4e4b-b2c4-4346-a7ba-70636780259a">
-    <name>ФормаСписка</name>
+  <attributes uuid="873f44dd-a04f-419d-88be-4e84ea173794">
+    <name>ВнутреннийРынок</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Внутренний рынок</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c4a68c7-541d-43c8-8563-cd5f58a32235">
+    <name>ВысшийСорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высший сорт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="057135d5-6e41-443e-8904-561fd2e16b7b">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a6a4e4b-b2c4-4346-a7ba-70636780259a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -56,9 +56,7 @@
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Ссылка</segments>
       </dataPath>
@@ -281,6 +279,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
@@ -337,6 +338,10 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ОтображатьПриАвторизации</dataPath>
         <field>ОтображатьПриАвторизации</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенногоПУ</dataPath>
+        <field>ИмяПредопределенногоПУ</field>
       </fields>
     </extInfo>
   </attributes>

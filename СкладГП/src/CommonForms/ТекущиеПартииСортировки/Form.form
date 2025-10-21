@@ -48,9 +48,7 @@
       </contextMenu>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -89,9 +87,7 @@
       </contextMenu>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -130,9 +126,7 @@
       </contextMenu>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -171,9 +165,7 @@
       </contextMenu>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -311,17 +303,11 @@
     </contextMenu>
     <readOnly>true</readOnly>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>1</height>
     <autoMaxHeight>true</autoMaxHeight>
-    <autoMaxRowsCount>true</autoMaxRowsCount>
     <choiceMode>true</choiceMode>
     <selectionMode>MultiRow</selectionMode>
-    <headerHeight>1</headerHeight>
-    <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
     <verticalScrollBar>AutoUse</verticalScrollBar>
-    <horizontalLines>true</horizontalLines>
-    <verticalLines>true</verticalLines>
     <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
@@ -361,6 +347,7 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <collapseItemsByImportanceVariant>Use</collapseItemsByImportanceVariant>
   <attributes>
     <name>ТаблицаПартий</name>
     <title>

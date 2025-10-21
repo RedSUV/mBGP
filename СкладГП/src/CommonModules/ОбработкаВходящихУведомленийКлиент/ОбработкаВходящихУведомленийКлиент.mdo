@@ -6,4 +6,5 @@
     <value>Обработка входящих уведомлений клиент</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

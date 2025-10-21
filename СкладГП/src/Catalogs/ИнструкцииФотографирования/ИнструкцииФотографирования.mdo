@@ -181,11 +181,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="bdd67168-a0e1-4b85-9b41-17bec3a82f69">
-    <name>ФормаЭлемента</name>
+  <forms uuid="bf23cf75-ef3f-4f81-8052-9491c39d79b9">
+    <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -199,11 +199,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="bf23cf75-ef3f-4f81-8052-9491c39d79b9">
-    <name>ФормаВыбора</name>
+  <forms uuid="bdd67168-a0e1-4b85-9b41-17bec3a82f69">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

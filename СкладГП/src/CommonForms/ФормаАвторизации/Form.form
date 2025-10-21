@@ -282,6 +282,10 @@
             <strikeout>false</strikeout>
             <scale>100</scale>
           </font>
+          <inputHint>
+            <key>ru</key>
+            <value>Укажите имя пользователя</value>
+          </inputHint>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -351,6 +355,10 @@
             <strikeout>false</strikeout>
             <scale>100</scale>
           </font>
+          <inputHint>
+            <key>ru</key>
+            <value>Введите пароль</value>
+          </inputHint>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -384,7 +392,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
-      <name>Декорация1</name>
+      <name>Заглушка1</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -392,7 +400,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Декорация1РасширеннаяПодсказка</name>
+        <name>Заглушка1РасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -402,7 +410,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Декорация1КонтекстноеМеню</name>
+        <name>Заглушка1КонтекстноеМеню</name>
         <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -448,7 +456,7 @@
         <blue>255</blue>
       </textColor>
       <backColor xsi:type="core:ColorRef">
-        <color>Style.AuxiliaryNavigationColor</color>
+        <color>Style.AccentColor</color>
       </backColor>
       <borderColor xsi:type="core:ColorRef">
         <color>Style.FormBackColor</color>

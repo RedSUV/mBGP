@@ -35,25 +35,6 @@
   <defaultListForm>Catalog.Ячейки.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Ячейки.Form.ФормаВыбора</defaultChoiceForm>
   <defaultFolderChoiceForm>Catalog.Ячейки.Form.ФормаВыбораСектора</defaultFolderChoiceForm>
-  <attributes uuid="2e4e66da-56ef-4b12-a006-b838a0ca1854">
-    <name>НомерВСекторе</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер в секторе</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <use>ForFolderAndItem</use>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="75231793-0e30-496a-9d5a-05f26b33b372">
     <name>АдресКартыСклада</name>
     <synonym>
@@ -71,6 +52,79 @@
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43552a7e-6674-445e-a8a4-d119580948f9">
+    <name>ВерсияПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6bdbd955-fffc-467b-a575-050d45b086b8">
+    <name>ВидШтабеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид штабеля</value>
+    </synonym>
+    <type>
+      <types>EnumRef.vlp_ВидыШтабелейСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cafab213-eba1-4897-84bb-aacfc54f21dd">
+    <name>ГеоКоординаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гео координаты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db02a5d7-b489-4bea-b985-5fce12bfa5e4">
+    <name>Двухсторонний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двухсторонний доступк штабелю</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="194c6abd-f382-481f-aa04-7ed44f099d8c">
@@ -103,27 +157,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="cafab213-eba1-4897-84bb-aacfc54f21dd">
-    <name>ГеоКоординаты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Гео координаты</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <use>ForFolderAndItem</use>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="ad184775-29bc-4811-b657-03c5d3fdd98e">
     <name>МаксимумРядов</name>
     <synonym>
@@ -143,69 +176,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="db02a5d7-b489-4bea-b985-5fce12bfa5e4">
-    <name>Двухсторонний</name>
+  <attributes uuid="2e4e66da-56ef-4b12-a006-b838a0ca1854">
+    <name>НомерВСекторе</name>
     <synonym>
       <key>ru</key>
-      <value>Двухсторонний доступк штабелю</value>
+      <value>Номер в секторе</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5ec1b2cb-307f-4c6d-aff8-bbde41f10028">
-    <name>ЭтоЯчейкаОТК</name>
-    <synonym>
-      <key>ru</key>
-      <value>Это ячейка ОТК</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="6bdbd955-fffc-467b-a575-050d45b086b8">
-    <name>ВидШтабеля</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид штабеля</value>
-    </synonym>
-    <type>
-      <types>EnumRef.vlp_ВидыШтабелейСклада</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="43552a7e-6674-445e-a8a4-d119580948f9">
-    <name>ВерсияПУ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Версия ПУ</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
@@ -227,24 +212,21 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="fa9372fe-9f16-4460-8d4a-d1b81f601f18">
-    <name>ФормаСписка</name>
+  <attributes uuid="5ec1b2cb-307f-4c6d-aff8-bbde41f10028">
+    <name>ЭтоЯчейкаОТК</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Это ячейка ОТК</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="c6dc09b6-3e24-45f8-a015-0e3bbc4b3967">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="64b0a945-e9f9-41f7-8d28-b4826fb0ea52">
     <name>ФормаВыбора</name>
     <synonym>
@@ -268,6 +250,24 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора штабеля сектора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa9372fe-9f16-4460-8d4a-d1b81f601f18">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6dc09b6-3e24-45f8-a015-0e3bbc4b3967">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

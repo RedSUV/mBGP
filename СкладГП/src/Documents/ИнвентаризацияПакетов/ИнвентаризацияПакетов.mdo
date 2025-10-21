@@ -27,18 +27,17 @@
   <defaultListForm>Document.ИнвентаризацияПакетов.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="68763e4c-357f-4164-9153-625896f81b5d">
-    <name>Склад</name>
+  <attributes uuid="ebde7515-d1ea-404b-bba9-b8b92066f42e">
+    <name>Влажность</name>
     <synonym>
       <key>ru</key>
-      <value>Склад</value>
+      <value>Влажность</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Влажности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -98,22 +97,63 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b5e0f2ef-291a-41b7-83fa-cc9cf6f8141d">
-    <name>ТолщинаОт</name>
+  <attributes uuid="77790467-5b72-4d45-bd43-3f377b87da4b">
+    <name>ОтправленВПУ</name>
     <synonym>
       <key>ru</key>
-      <value>Толщина от</value>
+      <value>Отправлен ВПУ</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68763e4c-357f-4164-9153-625896f81b5d">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0bba68b-632d-4d33-b0c2-082d89507d46">
+    <name>Сорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a44075a-d810-4ebf-9eb1-8f5be4cb3aee">
+    <name>ТипРаспила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип распила</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыРаспила</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -138,11 +178,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a2652fc3-9802-494a-bcd6-7c1503c1ce53">
-    <name>ШиринаОт</name>
+  <attributes uuid="b5e0f2ef-291a-41b7-83fa-cc9cf6f8141d">
+    <name>ТолщинаОт</name>
     <synonym>
       <key>ru</key>
-      <value>Ширина от</value>
+      <value>Толщина от</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -178,62 +218,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9a44075a-d810-4ebf-9eb1-8f5be4cb3aee">
-    <name>ТипРаспила</name>
+  <attributes uuid="a2652fc3-9802-494a-bcd6-7c1503c1ce53">
+    <name>ШиринаОт</name>
     <synonym>
       <key>ru</key>
-      <value>Тип распила</value>
+      <value>Ширина от</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыРаспила</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ebde7515-d1ea-404b-bba9-b8b92066f42e">
-    <name>Влажность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Влажность</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Влажности</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="c0bba68b-632d-4d33-b0c2-082d89507d46">
-    <name>Сорт</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сорт</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сорта</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="77790467-5b72-4d45-bd43-3f377b87da4b">
-    <name>ОтправленВПУ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отправлен ВПУ</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -243,6 +243,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db8db298-2101-4148-b839-291d2be5404a">
+    <name>ФормаРегистрацииДубля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регистрации дубля</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -265,15 +274,163 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="db8db298-2101-4148-b839-291d2be5404a">
-    <name>ФормаРегистрацииДубля</name>
+  <tabularSections uuid="f968a28a-ad96-4f76-a583-c1f562432323">
+    <producedTypes>
+      <objectType typeId="14c8c922-8243-4b1f-8b59-c5fdc48f11ba" valueTypeId="f4e52057-443e-47cc-81e0-9d4a6e03f974"/>
+      <rowType typeId="c0758adc-308e-4f95-95fb-101b5f448a5c" valueTypeId="3a987b41-846c-4cd7-a936-b2173188f4c5"/>
+    </producedTypes>
+    <name>ДоскиПакетов</name>
     <synonym>
       <key>ru</key>
-      <value>Форма регистрации дубля</value>
+      <value>Доски пакетов</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
+    <attributes uuid="0c5a2547-781d-4c5c-a8d8-155341b2e81d">
+      <name>НомерПакета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер пакета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26a3369f-431d-484d-8f32-3e1a83cf11d5">
+      <name>Длина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длина</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cffd59dd-1a07-4ce1-b9ce-774f0901af1a">
+      <name>Досок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Досок (шт)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ea327fdf-5fab-43c4-a946-42d54197f5ec">
+    <producedTypes>
+      <objectType typeId="911e4174-6e06-42cf-af59-5a5ad1d6d406" valueTypeId="969c18ec-2180-40e6-af8d-17b66ad21578"/>
+      <rowType typeId="cf4cacba-89d4-474b-981d-d0cc15512bec" valueTypeId="6a0e9812-8d21-4c55-8337-ec42f4bccdfb"/>
+    </producedTypes>
+    <name>ДублиПакетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубли пакетов</value>
+    </synonym>
+    <attributes uuid="6df70cc6-45c5-4668-9df8-327a9e91871d">
+      <name>НомерПакета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер пакета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80728af5-a1fe-4ee4-ac6b-c4bfb2d7534f">
+      <name>Гео</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гео</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5bac2032-69c0-42d1-b3b5-ca2b319fbd9f">
+      <name>Штабель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штабель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Ячейки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d52b746c-1080-4b7f-b0ee-e48b45df3dce">
+      <name>Ряд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ряд</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f026c9e-34ac-4fbe-ac26-cf4b12db0596">
+      <name>Ярус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ярус</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <tabularSections uuid="3ab81853-b169-422a-839b-88a046d739db">
     <producedTypes>
       <objectType typeId="db3d840a-6080-43c0-b7a2-0cc279490c5e" valueTypeId="3c72d04d-028c-4a20-86e3-8b9f63bf9b5e"/>
@@ -564,163 +721,6 @@
         <stringQualifiers>
           <length>100</length>
         </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="f968a28a-ad96-4f76-a583-c1f562432323">
-    <producedTypes>
-      <objectType typeId="14c8c922-8243-4b1f-8b59-c5fdc48f11ba" valueTypeId="f4e52057-443e-47cc-81e0-9d4a6e03f974"/>
-      <rowType typeId="c0758adc-308e-4f95-95fb-101b5f448a5c" valueTypeId="3a987b41-846c-4cd7-a936-b2173188f4c5"/>
-    </producedTypes>
-    <name>ДоскиПакетов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доски пакетов</value>
-    </synonym>
-    <attributes uuid="0c5a2547-781d-4c5c-a8d8-155341b2e81d">
-      <name>НомерПакета</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номер пакета</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>6</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="26a3369f-431d-484d-8f32-3e1a83cf11d5">
-      <name>Длина</name>
-      <synonym>
-        <key>ru</key>
-        <value>Длина</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>3</precision>
-          <scale>1</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="cffd59dd-1a07-4ce1-b9ce-774f0901af1a">
-      <name>Досок</name>
-      <synonym>
-        <key>ru</key>
-        <value>Досок (шт)</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="ea327fdf-5fab-43c4-a946-42d54197f5ec">
-    <producedTypes>
-      <objectType typeId="911e4174-6e06-42cf-af59-5a5ad1d6d406" valueTypeId="969c18ec-2180-40e6-af8d-17b66ad21578"/>
-      <rowType typeId="cf4cacba-89d4-474b-981d-d0cc15512bec" valueTypeId="6a0e9812-8d21-4c55-8337-ec42f4bccdfb"/>
-    </producedTypes>
-    <name>ДублиПакетов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дубли пакетов</value>
-    </synonym>
-    <attributes uuid="6df70cc6-45c5-4668-9df8-327a9e91871d">
-      <name>НомерПакета</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номер пакета</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>6</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="80728af5-a1fe-4ee4-ac6b-c4bfb2d7534f">
-      <name>Гео</name>
-      <synonym>
-        <key>ru</key>
-        <value>Гео</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="5bac2032-69c0-42d1-b3b5-ca2b319fbd9f">
-      <name>Штабель</name>
-      <synonym>
-        <key>ru</key>
-        <value>Штабель</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Ячейки</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="d52b746c-1080-4b7f-b0ee-e48b45df3dce">
-      <name>Ряд</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ряд</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="5f026c9e-34ac-4fbe-ac26-cf4b12db0596">
-      <name>Ярус</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ярус</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>1</precision>
-        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -16,7 +16,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>АО ГК ВЛП</vendor>
-  <version>1.003.30</version>
+  <version>1.003.31</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -112,39 +112,40 @@
   </languages>
   <subsystems>Subsystem.МобильноеПриложениеСклада</subsystems>
   <styles>Style.vlp</styles>
-  <commonPictures>CommonPicture.QRСБП</commonPictures>
   <commonPictures>CommonPicture.ItobИконкаГрузовикЖелтый</commonPictures>
+  <commonPictures>CommonPicture.QRСБП</commonPictures>
   <commonPictures>CommonPicture.RFIDКоллекция</commonPictures>
-  <commonPictures>CommonPicture.Записать32</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияЗеленыйКрасныйШар</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияКрасныйЗеленыйШар</commonPictures>
-  <commonPictures>CommonPicture.СтатусСвязи16</commonPictures>
-  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
-  <commonPictures>CommonPicture.ГлазОткрыт16</commonPictures>
+  <commonPictures>CommonPicture.Важно</commonPictures>
   <commonPictures>CommonPicture.ГлазЗакрыт16</commonPictures>
+  <commonPictures>CommonPicture.ГлазОткрыт16</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьКартинку</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьРядСлева</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьРядСправа</commonPictures>
   <commonPictures>CommonPicture.ЗадачаВыполнена</commonPictures>
   <commonPictures>CommonPicture.ЗадачаНеВыполнена</commonPictures>
+  <commonPictures>CommonPicture.Записать32</commonPictures>
+  <commonPictures>CommonPicture.Клиенты</commonPictures>
+  <commonPictures>CommonPicture.КодQRЗеленый</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЗеленыйКрасныйШар</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияКрасныйЗеленыйШар</commonPictures>
   <commonPictures>CommonPicture.КоллекцияОстаткиТоваров</commonPictures>
+  <commonPictures>CommonPicture.КругЗеленый</commonPictures>
+  <commonPictures>CommonPicture.КругКрасный</commonPictures>
+  <commonPictures>CommonPicture.КругПустой</commonPictures>
   <commonPictures>CommonPicture.Обновление</commonPictures>
+  <commonPictures>CommonPicture.Обратный</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров1</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров2</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров3</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров4</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров5</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиТоваров6</commonPictures>
   <commonPictures>CommonPicture.ОтборВНаличии</commonPictures>
-  <commonPictures>CommonPicture.Успешно</commonPictures>
+  <commonPictures>CommonPicture.ОткрытьСвойства</commonPictures>
   <commonPictures>CommonPicture.ОтправитьПисьмо</commonPictures>
   <commonPictures>CommonPicture.ПерейтиКЗаказу</commonPictures>
-  <commonPictures>CommonPicture.ПоискПоШтрихкоду</commonPictures>
-  <commonPictures>CommonPicture.Развернуть</commonPictures>
-  <commonPictures>CommonPicture.Свернуть</commonPictures>
-  <commonPictures>CommonPicture.ОткрытьСвойства</commonPictures>
-  <commonPictures>CommonPicture.СостояниеЗаказа</commonPictures>
-  <commonPictures>CommonPicture.СтатусЗаказаЗакрыт</commonPictures>
-  <commonPictures>CommonPicture.СтатусЗаказаКОбеспечению</commonPictures>
-  <commonPictures>CommonPicture.СтатусЗаказаКоллекция</commonPictures>
-  <commonPictures>CommonPicture.СтатусЗаказаНеСогласован</commonPictures>
-  <commonPictures>CommonPicture.СтатусЗаказаСогласован</commonPictures>
-  <commonPictures>CommonPicture.СтатусыОбменаКоллекция</commonPictures>
-  <commonPictures>CommonPicture.СинхронизацияВыполняется</commonPictures>
-  <commonPictures>CommonPicture.КодQRЗеленый</commonPictures>
-  <commonPictures>CommonPicture.Важно</commonPictures>
   <commonPictures>CommonPicture.ПинКод0</commonPictures>
   <commonPictures>CommonPicture.ПинКод1</commonPictures>
   <commonPictures>CommonPicture.ПинКод2</commonPictures>
@@ -155,28 +156,27 @@
   <commonPictures>CommonPicture.ПинКод7</commonPictures>
   <commonPictures>CommonPicture.ПинКод8</commonPictures>
   <commonPictures>CommonPicture.ПинКод9</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьКартинку</commonPictures>
-  <commonPictures>CommonPicture.ФотоОтсутствует</commonPictures>
-  <commonPictures>CommonPicture.Товары</commonPictures>
-  <commonPictures>CommonPicture.Клиенты</commonPictures>
-  <commonPictures>CommonPicture.Склады</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров1</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров2</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров3</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров4</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров5</commonPictures>
-  <commonPictures>CommonPicture.ОстаткиТоваров6</commonPictures>
-  <commonPictures>CommonPicture.Фотоаппарат</commonPictures>
-  <commonPictures>CommonPicture.Штабель</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьРядСправа</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьРядСлева</commonPictures>
-  <commonPictures>CommonPicture.СменаНаправления</commonPictures>
+  <commonPictures>CommonPicture.ПоискПоШтрихкоду</commonPictures>
   <commonPictures>CommonPicture.Прямой</commonPictures>
-  <commonPictures>CommonPicture.Обратный</commonPictures>
+  <commonPictures>CommonPicture.Развернуть</commonPictures>
+  <commonPictures>CommonPicture.Свернуть</commonPictures>
+  <commonPictures>CommonPicture.СинхронизацияВыполняется</commonPictures>
+  <commonPictures>CommonPicture.Склады</commonPictures>
+  <commonPictures>CommonPicture.СменаНаправления</commonPictures>
+  <commonPictures>CommonPicture.СостояниеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.СтатусЗаказаЗакрыт</commonPictures>
+  <commonPictures>CommonPicture.СтатусЗаказаКОбеспечению</commonPictures>
+  <commonPictures>CommonPicture.СтатусЗаказаКоллекция</commonPictures>
+  <commonPictures>CommonPicture.СтатусЗаказаНеСогласован</commonPictures>
+  <commonPictures>CommonPicture.СтатусЗаказаСогласован</commonPictures>
+  <commonPictures>CommonPicture.СтатусСвязи16</commonPictures>
+  <commonPictures>CommonPicture.СтатусыОбменаКоллекция</commonPictures>
+  <commonPictures>CommonPicture.Товары</commonPictures>
+  <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Фото16</commonPictures>
-  <commonPictures>CommonPicture.КругЗеленый</commonPictures>
-  <commonPictures>CommonPicture.КругКрасный</commonPictures>
-  <commonPictures>CommonPicture.КругПустой</commonPictures>
+  <commonPictures>CommonPicture.Фотоаппарат</commonPictures>
+  <commonPictures>CommonPicture.ФотоОтсутствует</commonPictures>
+  <commonPictures>CommonPicture.Штабель</commonPictures>
   <sessionParameters>SessionParameter.ВидИнтерфейсаНочь</sessionParameters>
   <sessionParameters>SessionParameter.ИдентификаторУстройства</sessionParameters>
   <commonModules>CommonModule.http</commonModules>
@@ -194,6 +194,7 @@
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
+  <commonModules>CommonModule.Заявки</commonModules>
   <commonModules>CommonModule.ИнтернетСоединениеКлиент</commonModules>
   <commonModules>CommonModule.ИнтерфейсВызовСервера</commonModules>
   <commonModules>CommonModule.ИнтерфейсКлиент</commonModules>
@@ -203,7 +204,7 @@
   <commonModules>CommonModule.МобильноеПриложениеСкладПУ</commonModules>
   <commonModules>CommonModule.МобильноеПриложениеСкладПУВызовСервера</commonModules>
   <commonModules>CommonModule.ОбработкаВходящихУведомленийКлиент</commonModules>
-  <commonModules>CommonModule.ОбработчикиОповещенийКлиент</commonModules>
+  <commonModules>CommonModule.ОбработчикиОповещенийГлобальный</commonModules>
   <commonModules>CommonModule.ОбработчикиПодписокНаСобытия</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
@@ -212,6 +213,8 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийМодульГлобальный</commonModules>
+  <commonModules>CommonModule.Ошибки</commonModules>
+  <commonModules>CommonModule.ОшибкиВызовСервера</commonModules>
   <commonModules>CommonModule.Пакеты</commonModules>
   <commonModules>CommonModule.Пакеты_ВызовСервера</commonModules>
   <commonModules>CommonModule.Пакеты_Клиент</commonModules>
@@ -222,111 +225,108 @@
   <commonModules>CommonModule.СлужебныйОбновление</commonModules>
   <commonModules>CommonModule.СлужебныйОбновлениеВызовСервера</commonModules>
   <commonModules>CommonModule.СлужебныйОбновлениеКлиент</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.СтилиФорм</commonModules>
   <commonModules>CommonModule.СтилиФорм_Клиент</commonModules>
   <commonModules>CommonModule.СтилиФормВызовСервера</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УКО</commonModules>
   <commonModules>CommonModule.хтмл</commonModules>
   <commonModules>CommonModule.ЯчейкиСклада</commonModules>
   <commonModules>CommonModule.ЯчейкиСкладаВызовСервера</commonModules>
   <commonModules>CommonModule.ЯчейкиСкладаКлиент</commonModules>
-  <commonModules>CommonModule.Ошибки</commonModules>
-  <commonModules>CommonModule.ОшибкиВызовСервера</commonModules>
-  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
-  <commonModules>CommonModule.Заявки</commonModules>
   <exchangePlans>ExchangePlan.МобильноеПриложениеСкладПУ</exchangePlans>
-  <eventSubscriptions>EventSubscription.ПриЗаписиДляРегистрацииВПланеОбмена</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПередЗаписьюДляРегистрацииВПланеОбмена</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПриЗаписиДляРегистрацииВПланеОбмена</eventSubscriptions>
   <functionalOptions>FunctionalOption.ДоступМастерБГП</functionalOptions>
-  <functionalOptions>FunctionalOption.ДоступПогрузчикБГП</functionalOptions>
-  <functionalOptions>FunctionalOption.РаботаСЭлОчередью</functionalOptions>
   <functionalOptions>FunctionalOption.ДоступОстаткиСклада</functionalOptions>
+  <functionalOptions>FunctionalOption.ДоступПогрузчикБГП</functionalOptions>
   <functionalOptions>FunctionalOption.ДоступРегистрацияПоврежденийПакетов</functionalOptions>
   <functionalOptions>FunctionalOption.ИнвентаризацияПакетов</functionalOptions>
   <functionalOptions>FunctionalOption.ПоказыватьВилыПогрузчика</functionalOptions>
   <functionalOptions>FunctionalOption.ПоказыватьВыходЦСП</functionalOptions>
-  <commonCommands>CommonCommand.ОбновитьНастройки</commonCommands>
+  <functionalOptions>FunctionalOption.РаботаСЭлОчередью</functionalOptions>
+  <commonCommands>CommonCommand.АрхивОтгрузок</commonCommands>
+  <commonCommands>CommonCommand.ЗаданияНаВывозку</commonCommands>
   <commonCommands>CommonCommand.Настройки</commonCommands>
+  <commonCommands>CommonCommand.ОбновитьНастройки</commonCommands>
   <commonCommands>CommonCommand.ПартииСортировки</commonCommands>
   <commonCommands>CommonCommand.ПоискПакета</commonCommands>
-  <commonCommands>CommonCommand.ЗаданияНаВывозку</commonCommands>
-  <commonCommands>CommonCommand.АрхивОтгрузок</commonCommands>
-  <constants>Constant.АдресПУ</constants>
-  <constants>Constant.УзелПУ</constants>
-  <constants>Constant.ЛогинПУ</constants>
-  <constants>Constant.ПарольПУ</constants>
-  <constants>Constant.Склад</constants>
   <constants>Constant.Authentication</constants>
-  <constants>Constant.ЭтоНеПервыйЗапуск</constants>
-  <constants>Constant.ПериодичностьПолученияОстатковСклада</constants>
-  <constants>Constant.ПериодичностьВыгрузкиИзменений</constants>
-  <constants>Constant.ТемнаяТема</constants>
+  <constants>Constant.АдресПУ</constants>
+  <constants>Constant.ДобавлятьДатуВремяНаФотоЗаявкиНаПогрузку</constants>
   <constants>Constant.ИдентификаторПодписчика</constants>
-  <constants>Constant.ФО_ДоступМастерБГП</constants>
-  <constants>Constant.ФО_ДоступПогрузчикБГП</constants>
-  <constants>Constant.ФО_РаботаСЭлОчередью</constants>
-  <constants>Constant.ИмяНачальнойСтраницы</constants>
-  <constants>Constant.ФО_ДоступОстаткиСклада</constants>
-  <constants>Constant.ФО_ДоступРегистрацияПоврежденийПакетов</constants>
   <constants>Constant.ИдентификаторУстройства</constants>
+  <constants>Constant.ИмяНачальнойСтраницы</constants>
   <constants>Constant.ИспользоватьЗвуковойПомощник</constants>
-  <constants>Constant.ШаблонПредставленияПакета</constants>
-  <constants>Constant.ШтрихКод2D</constants>
-  <constants>Constant.СканированиеСтороннимПриложением</constants>
-  <constants>Constant.ФО_ИнвентаризацияПакетов</constants>
+  <constants>Constant.ЛогинПУ</constants>
+  <constants>Constant.ОтключитьЗаписьТрека</constants>
+  <constants>Constant.ПарольПУ</constants>
+  <constants>Constant.ПериодичностьВыгрузкиИзменений</constants>
+  <constants>Constant.ПериодичностьПолученияОстатковСклада</constants>
   <constants>Constant.ПоказыватьВилыПогрузчика</constants>
   <constants>Constant.ПоказыватьВыходЦСП</constants>
-  <constants>Constant.ДобавлятьДатуВремяНаФотоЗаявкиНаПогрузку</constants>
-  <constants>Constant.ОтключитьЗаписьТрека</constants>
+  <constants>Constant.СканированиеСтороннимПриложением</constants>
+  <constants>Constant.Склад</constants>
+  <constants>Constant.ТемнаяТема</constants>
+  <constants>Constant.УзелПУ</constants>
+  <constants>Constant.ФО_ДоступМастерБГП</constants>
+  <constants>Constant.ФО_ДоступОстаткиСклада</constants>
+  <constants>Constant.ФО_ДоступПогрузчикБГП</constants>
+  <constants>Constant.ФО_ДоступРегистрацияПоврежденийПакетов</constants>
+  <constants>Constant.ФО_ИнвентаризацияПакетов</constants>
+  <constants>Constant.ФО_РаботаСЭлОчередью</constants>
+  <constants>Constant.ШаблонПредставленияПакета</constants>
+  <constants>Constant.ШтрихКод2D</constants>
+  <constants>Constant.ЭтоНеПервыйЗапуск</constants>
+  <commonForms>CommonForm.АрхивЗаявокНаОтгрузку</commonForms>
+  <commonForms>CommonForm.КартаСклада</commonForms>
   <commonForms>CommonForm.НастройкаШаблонаОписанияПакета</commonForms>
+  <commonForms>CommonForm.ТекущиеПартииСортировки</commonForms>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <commonForms>CommonForm.ФормаВводаНомераПакета</commonForms>
   <commonForms>CommonForm.ФормаВыбораКоманды</commonForms>
   <commonForms>CommonForm.ФормаДлительнойОперации</commonForms>
+  <commonForms>CommonForm.ФормаЗаданияНаВывозку</commonForms>
   <commonForms>CommonForm.ФормаЗаявкиНаПогрузку</commonForms>
+  <commonForms>CommonForm.ФормаНазначенныхСборок</commonForms>
   <commonForms>CommonForm.ФормаНастройкиПриложения</commonForms>
+  <commonForms>CommonForm.ФормаОписанияПроблемы</commonForms>
+  <commonForms>CommonForm.ФормаОчисткиДанных</commonForms>
   <commonForms>CommonForm.ФормаПакета</commonForms>
   <commonForms>CommonForm.ФормаПартииСортировки</commonForms>
   <commonForms>CommonForm.ФормаРабочегоСтолаБГП</commonForms>
   <commonForms>CommonForm.ФормаРабочегоСтолаОТК</commonForms>
   <commonForms>CommonForm.ФормаРабочегоСтолаПогрузчик</commonForms>
   <commonForms>CommonForm.ФормаРедактированияСпискаЯчеекСортаПартии</commonForms>
-  <commonForms>CommonForm.ФормаУстановкиПакетаВЯчейку</commonForms>
-  <commonForms>CommonForm.КартаСклада</commonForms>
-  <commonForms>CommonForm.ТекущиеПартииСортировки</commonForms>
-  <commonForms>CommonForm.ФормаНазначенныхСборок</commonForms>
-  <commonForms>CommonForm.ФормаЗаданияНаВывозку</commonForms>
-  <commonForms>CommonForm.АрхивЗаявокНаОтгрузку</commonForms>
-  <commonForms>CommonForm.ФормаОписанияПроблемы</commonForms>
-  <commonForms>CommonForm.ФормаОчисткиДанных</commonForms>
   <commonForms>CommonForm.ФормаУказанияТС</commonForms>
+  <commonForms>CommonForm.ФормаУстановкиПакетаВЯчейку</commonForms>
   <catalogs>Catalog.БазыПУ</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.Ячейки</catalogs>
-  <catalogs>Catalog.Сорта</catalogs>
+  <catalogs>Catalog.ВидыПоврежденияПакета</catalogs>
   <catalogs>Catalog.ВидыПродукции</catalogs>
   <catalogs>Catalog.Влажности</catalogs>
-  <catalogs>Catalog.ТипыРаспила</catalogs>
-  <catalogs>Catalog.ВидыПоврежденияПакета</catalogs>
   <catalogs>Catalog.ИнструкцииФотографирования</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сорта</catalogs>
+  <catalogs>Catalog.ТипыРаспила</catalogs>
+  <catalogs>Catalog.Ячейки</catalogs>
   <documents>Document.ИнвентаризацияПакетов</documents>
-  <enums>Enum.Породы</enums>
   <enums>Enum.vlp_ВидыШтабелейСклада</enums>
+  <enums>Enum.Породы</enums>
   <reports>Report.ОстаткиСклада</reports>
   <dataProcessors>DataProcessor.ИнвентаризацияЯчейки</dataProcessors>
-  <informationRegisters>InformationRegister.КешДанных</informationRegisters>
-  <informationRegisters>InformationRegister.СвойстваПакетов</informationRegisters>
-  <informationRegisters>InformationRegister.ОстаткиПакетовНаСкладах</informationRegisters>
-  <informationRegisters>InformationRegister.ИсторияРаботы</informationRegisters>
-  <informationRegisters>InformationRegister.ПоврежденныеПакеты</informationRegisters>
   <informationRegisters>InformationRegister.ДвоичныеДанныеПрисоединенныхФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияМобильномуПриложению</informationRegisters>
-  <informationRegisters>InformationRegister.ПакетыНаВилах</informationRegisters>
-  <informationRegisters>InformationRegister.НазначенныеПодсборки</informationRegisters>
-  <informationRegisters>InformationRegister.ИсторияКачестваРасстановкиСклада</informationRegisters>
-  <informationRegisters>InformationRegister.ОшибкиКОтправке</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияНаВывозВПодсборки</informationRegisters>
-  <informationRegisters>InformationRegister.Треки</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияКачестваРасстановкиСклада</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.КешДанных</informationRegisters>
+  <informationRegisters>InformationRegister.НазначенныеПодсборки</informationRegisters>
+  <informationRegisters>InformationRegister.ОстаткиПакетовНаСкладах</informationRegisters>
+  <informationRegisters>InformationRegister.ОшибкиКОтправке</informationRegisters>
+  <informationRegisters>InformationRegister.ПакетыНаВилах</informationRegisters>
+  <informationRegisters>InformationRegister.ПоврежденныеПакеты</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваПакетов</informationRegisters>
   <informationRegisters>InformationRegister.ТекущийТрек</informationRegisters>
+  <informationRegisters>InformationRegister.Треки</informationRegisters>
 </mdclass:Configuration>

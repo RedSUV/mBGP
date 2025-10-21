@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
-topObjects=false
+subordinateObjects=true
+topObjects=true

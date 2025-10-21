@@ -19,6 +19,52 @@
   <defaultRecordForm>InformationRegister.ПоврежденныеПакеты.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.ПоврежденныеПакеты.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="34ce669d-599d-4858-ae53-429434d61b24">
+    <name>ВыгруженПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружен ПУ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c4b13a63-47a9-4506-a117-5888c7ceedcb">
+    <name>ДанныеПовреждений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные повреждений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ba672b64-0c6b-4747-9115-deeab78f1abe">
+    <name>Исправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="194a2048-4912-4273-9bdd-9369ca966f0a">
     <name>Комментарий</name>
     <synonym>
@@ -57,52 +103,23 @@
       <value></value>
     </fillValue>
   </resources>
-  <resources uuid="c4b13a63-47a9-4506-a117-5888c7ceedcb">
-    <name>ДанныеПовреждений</name>
+  <attributes uuid="acd02c03-ae40-42de-9699-980665807359">
+    <name>ДатаОбнаружения</name>
     <synonym>
       <key>ru</key>
-      <value>Данные повреждений</value>
+      <value>Дата обнаружения</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Date</types>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-  </resources>
-  <resources uuid="34ce669d-599d-4858-ae53-429434d61b24">
-    <name>ВыгруженПУ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выгружен ПУ</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="ba672b64-0c6b-4747-9115-deeab78f1abe">
-    <name>Исправлено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Исправлено</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+  </attributes>
   <attributes uuid="33baef39-a8e4-4cd0-bcb0-ba6143d4d05c">
     <name>Номер</name>
     <synonym>
@@ -123,23 +140,6 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-  </attributes>
-  <attributes uuid="acd02c03-ae40-42de-9699-980665807359">
-    <name>ДатаОбнаружения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата обнаружения</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="745a65f7-a36a-4dfa-84cd-fc283a9f0318">
     <name>Склад</name>

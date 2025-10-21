@@ -527,12 +527,8 @@
           <autoMaxRowsCount>true</autoMaxRowsCount>
           <choiceMode>true</choiceMode>
           <selectionMode>MultiRow</selectionMode>
-          <headerHeight>1</headerHeight>
-          <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
-          <horizontalLines>true</horizontalLines>
-          <verticalLines>true</verticalLines>
           <autoInsertNewRow>true</autoInsertNewRow>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>

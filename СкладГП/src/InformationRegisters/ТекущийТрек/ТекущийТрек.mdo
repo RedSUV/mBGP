@@ -16,6 +16,25 @@
   </synonym>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="811413de-6762-465e-890b-5bd90fa5ee54">
+    <name>Скорость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="1152243c-fea1-4576-b3bb-ebb16308d9a8">
     <name>ТекущееМестоположение</name>
     <synonym>
@@ -35,25 +54,6 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-  </resources>
-  <resources uuid="811413de-6762-465e-890b-5bd90fa5ee54">
-    <name>Скорость</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скорость</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>1</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="dea6de93-404a-43de-8422-fb19418808d1">
     <name>id</name>

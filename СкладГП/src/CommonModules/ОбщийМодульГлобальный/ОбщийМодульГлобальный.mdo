@@ -7,4 +7,5 @@
   </synonym>
   <global>true</global>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
