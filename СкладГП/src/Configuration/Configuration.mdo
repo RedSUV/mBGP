@@ -115,6 +115,8 @@
   <commonPictures>CommonPicture.ItobИконкаГрузовикЖелтый</commonPictures>
   <commonPictures>CommonPicture.QRСБП</commonPictures>
   <commonPictures>CommonPicture.RFIDКоллекция</commonPictures>
+  <commonPictures>CommonPicture.splash_1024x768</commonPictures>
+  <commonPictures>CommonPicture.splash_768x1024</commonPictures>
   <commonPictures>CommonPicture.Важно</commonPictures>
   <commonPictures>CommonPicture.ГлазЗакрыт16</commonPictures>
   <commonPictures>CommonPicture.ГлазОткрыт16</commonPictures>
