@@ -961,6 +961,7 @@
             <picture>StdPicture.ChooseValue</picture>
           </picture>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <shape>Oval</shape>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1191,6 +1192,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1221,6 +1225,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1251,6 +1258,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1317,6 +1327,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1347,6 +1360,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1377,6 +1393,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1447,6 +1466,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1477,6 +1499,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1507,6 +1532,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1573,6 +1601,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>
@@ -1603,6 +1634,9 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <borderColor xsi:type="core:ColorRef">
+              <color>Style.FormBackColor</color>
+            </borderColor>
             <representationInContextMenu>Auto</representationInContextMenu>
             <shape>Usual</shape>
             <shapeRepresentation>Always</shapeRepresentation>

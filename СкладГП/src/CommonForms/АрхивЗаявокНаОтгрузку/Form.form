@@ -327,6 +327,7 @@
     <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>

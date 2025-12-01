@@ -442,6 +442,9 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <borderColor xsi:type="core:ColorRef">
+      <color>Style.FormBackColor</color>
+    </borderColor>
     <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>

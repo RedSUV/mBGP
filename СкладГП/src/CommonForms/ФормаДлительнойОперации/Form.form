@@ -117,6 +117,9 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <maxValue>100</maxValue>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.FormBackColor</color>
+      </borderColor>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>

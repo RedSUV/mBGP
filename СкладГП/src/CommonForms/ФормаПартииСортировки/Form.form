@@ -709,6 +709,9 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.FormBackColor</color>
+        </borderColor>
         <searchStringLocation>PullFromTop</searchStringLocation>
         <groupVerticalAlign>Top</groupVerticalAlign>
         <currentRowUse>Choice</currentRowUse>

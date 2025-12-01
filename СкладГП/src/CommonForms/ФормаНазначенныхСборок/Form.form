@@ -352,6 +352,9 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <borderColor xsi:type="core:ColorRef">
+      <color>Style.FormBackColor</color>
+    </borderColor>
     <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
@@ -376,6 +379,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <type>CommandBarHyperlink</type>
       <commandName>Form.Command.ОбновитьСписок</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
@@ -394,6 +398,8 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>Help</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

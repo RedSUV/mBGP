@@ -349,7 +349,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>UsualButton</type>
+          <type>Hyperlink</type>
           <commandName>Form.Command.ВнестиДанныеТС</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
@@ -593,6 +593,9 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1018,6 +1021,9 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.FormBackColor</color>
+        </borderColor>
         <behaviorOnHorizontalCompression>MoveItemsByImportance</behaviorOnHorizontalCompression>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>

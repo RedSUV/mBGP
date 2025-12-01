@@ -108,7 +108,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <type>UsualButton</type>
+      <type>Hyperlink</type>
       <commandName>Form.Command.Проверить</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
@@ -230,6 +230,7 @@
         <color>Style.AccentColor</color>
       </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <shape>Oval</shape>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
